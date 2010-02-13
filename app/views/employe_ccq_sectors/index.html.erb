@@ -1,0 +1,22 @@
+<h1>Listing employe_ccq_sectors</h1>
+
+<table>
+  <tr>
+    <th>Sector name fr</th>
+    <th>Sector name en</th>
+  </tr>
+
+<% @employe_ccq_sectors.each do |employe_ccq_sector| %>
+  <tr>
+    <td><%=h employe_ccq_sector.sector_name_fr %></td>
+    <td><%=h employe_ccq_sector.sector_name_en %></td>
+    <td><%= link_to 'Show', employe_ccq_sector %></td>
+    <td><%= link_to 'Edit', edit_employe_ccq_sector_path(employe_ccq_sector) %></td>
+    <td><%= link_to 'Destroy', employe_ccq_sector, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New employe_ccq_sector', new_employe_ccq_sector_path %>

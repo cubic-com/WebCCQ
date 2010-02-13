@@ -1,0 +1,18 @@
+B:
+  sector_code: "B"
+  sector_name_fr: "Industriel"
+  sector_name_en: "Industriel"
+C:
+  sector_code: "C"
+  sector_name_fr: "Commercial et institutionnel"
+  sector_name_en: "Commercial et institutionnel"
+A:
+  sector_code: "A"
+  sector_name_fr: "Génie civil et voirie"
+  sector_name_en: "Génie civil et voirie"
+D:
+  sector_code: "D"
+  sector_name_fr: "Résidentiel"
+  sector_name_en: "Résidentiel"
+  
+  

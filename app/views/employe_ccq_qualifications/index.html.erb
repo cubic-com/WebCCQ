@@ -1,0 +1,22 @@
+<h1>Listing employe_ccq_qualifications</h1>
+
+<table>
+  <tr>
+    <th>Qualification name fr</th>
+    <th>Qualifaction name en</th>
+  </tr>
+
+<% @employe_ccq_qualifications.each do |employe_ccq_qualification| %>
+  <tr>
+    <td><%=h employe_ccq_qualification.qualification_name_fr %></td>
+    <td><%=h employe_ccq_qualification.qualifaction_name_en %></td>
+    <td><%= link_to 'Show', employe_ccq_qualification %></td>
+    <td><%= link_to 'Edit', edit_employe_ccq_qualification_path(employe_ccq_qualification) %></td>
+    <td><%= link_to 'Destroy', employe_ccq_qualification, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New employe_ccq_qualification', new_employe_ccq_qualification_path %>

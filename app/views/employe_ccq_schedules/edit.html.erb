@@ -1,0 +1,20 @@
+<h1>Editing employe_ccq_schedule</h1>
+
+<% form_for(@employe_ccq_schedule) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :schedule_name_fr %><br />
+    <%= f.text_field :schedule_name_fr %>
+  </p>
+  <p>
+    <%= f.label :schedule_name_en %><br />
+    <%= f.text_field :schedule_name_en %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @employe_ccq_schedule %> |
+<%= link_to 'Back', employe_ccq_schedules_path %>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  sector_name_fr: MyString
+  sector_name_en: MyString
+
+two:
+  sector_name_fr: MyString
+  sector_name_en: MyString

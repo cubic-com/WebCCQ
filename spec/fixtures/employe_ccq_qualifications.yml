@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  qualification_name_fr: MyString
+  qualifaction_name_en: MyString
+
+two:
+  qualification_name_fr: MyString
+  qualifaction_name_en: MyString

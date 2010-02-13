@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  schedule_name_fr: MyString
+  schedule_name_en: MyString
+
+two:
+  schedule_name_fr: MyString
+  schedule_name_en: MyString
