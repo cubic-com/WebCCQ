@@ -16,7 +16,8 @@
     <% @employe_ccq_trades.each do |trade| %>
       <tr>
          <td>
-            <%= trade.trade_id.to_s[0..2] %>
+            <%#= trade.trade_id.to_s[0..2] %>
+            <%=link_to trade.trade_id, trade %>
           </td>
           <td>
             <%= truncate trade.trade_name_fr, :length => 45%>

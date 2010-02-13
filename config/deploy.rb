@@ -4,7 +4,7 @@ set :repository,  "git@github.com:cubic-com/WebCCQ.git"
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 set :deploy_to, "/var/www"
-set :user, 'root'
+#set :user, 'root'
 
 
 role :web, "192.168.90.2"                          # Your HTTP server, Apache/etc

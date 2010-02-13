@@ -1,4 +1,8 @@
 task :populate do 
   sh "ruby '#{Dir.pwd}/db/migrate/popufake_webccq.rb'"
-  #sh "ruby '/home/andre/Ruby Script/OpenAccountAPI/db/migrate/data/popufake_customer.rb'"
+  # Load ccq_trade code from fixture
+  sh "rake db:fixtures:load FIXTURES=employe_ccq_trades"
+  # Load ccq_sector code from fixture
+  sh "rake db:fixtures:load FIXTURES=employe_ccq_sectors"
+
 end
