@@ -28,6 +28,12 @@ fr:
     content_type: "File Type"
     added_date: "Date ajout"
     added_by: "Par l'usager "
+  employe_trade_ccq:
+    caption: "Liste des métiers de la CCQ"
+    trade_id: "No. métier"
+    trade_name_en: "Trade Name"
+    trade_name_fr: "Nom du métier"
+    
   will_paginate:
     prev_page: "Précédent"
     next_page: "Suivant"

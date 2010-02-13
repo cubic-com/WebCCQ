@@ -27,6 +27,11 @@ en:
     content_type: "File Type"
     added_date: "Date added"
     added_by: "By user "
+  employe_trade_ccq:
+    caption: "CCQ trade List"
+    trade_id: "Trade No."
+    trade_name_en: "Trade Name"
+    trade_name_fr: "Nom du métier"
   will_paginate:
     prev_page: "Previous"
     next_page: "Next"

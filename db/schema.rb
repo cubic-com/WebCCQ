@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100208053614) do
+ActiveRecord::Schema.define(:version => 20100213081241) do
 
   create_table "employe_attachments", :force => true do |t|
     t.integer  "employes_id"
@@ -20,6 +20,15 @@ ActiveRecord::Schema.define(:version => 20100208053614) do
     t.binary   "data"
     t.string   "added_user"
     t.date     "added_date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "employe_ccq_trades", :force => true do |t|
+    t.integer  "trade_id"
+    t.integer  "apprentice_period"
+    t.string   "trade_name_fr"
+    t.string   "trade_name_en"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

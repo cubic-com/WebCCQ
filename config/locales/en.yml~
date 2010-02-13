@@ -24,8 +24,12 @@ en:
     file_name: "File Name"
     file_description: "Description"
     file_size: "File size"
+    content_type: "File Type"
     added_date: "Date added"
     added_by: "By user "
+  employe_trade_ccq:
+    caption: "CCQ trade List"
+    trade_id: "Trade No."
   will_paginate:
     prev_page: "Previous"
     next_page: "Next"

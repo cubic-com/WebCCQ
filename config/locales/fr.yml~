@@ -24,9 +24,14 @@ fr:
     caption: "Liste de fichier joint(s)"
     file_name: "Nom du fichier"
     file_description: "Description"
-    file_size: "Contenue"
+    file_size: "Grosseur"
+    content_type: "File Type"
     added_date: "Date ajout"
     added_by: "Par l'usager "
+  employe_trade_ccq:
+    caption: "Liste des métiers de la CCQ"
+    trade_id: "No. métier"
+    
   will_paginate:
     prev_page: "Précédent"
     next_page: "Suivant"
