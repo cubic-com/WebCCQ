@@ -1,0 +1,24 @@
+<h1>Editing employe_ccq_trade</h1>
+
+<% form_for(@employe_ccq_trade) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :trade_id %><br />
+    <%= f.text_field :trade_id %>
+  </p>
+  <p>
+    <%= f.label :tradename_fr %><br />
+    <%= f.text_field :tradename_fr %>
+  </p>
+  <p>
+    <%= f.label :trade_name_en %><br />
+    <%= f.text_field :trade_name_en %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @employe_ccq_trade %> |
+<%= link_to 'Back', employe_ccq_trades_path %>

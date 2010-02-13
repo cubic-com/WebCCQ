@@ -1,0 +1,584 @@
+1103:
+  trade_id: 110
+  apprentice_period: 3
+  trade_name_fr: "Briqueteur-maçon"
+1303:
+  trade_id: 130
+  apprentice_period: 3
+  trade_name_fr: "Calorifugeur"
+1403:
+  trade_id: 140
+  apprentice_period: 3
+  trade_name_fr: "Carreleur"
+1603:
+  trade_id: 160
+  apprentice_period: 3
+  trade_name_fr: "Charpentier-menuisier"
+1683:
+  trade_id: 168
+  apprentice_period: 3
+  trade_name_fr: "Pose de fondations profondes"
+1743:
+  trade_id: 174
+  apprentice_period: 3
+  trade_name_fr: "Parqueteur-sableur (menuisier)"
+1903:
+  trade_id: 190
+  apprentice_period: 3
+  trade_name_fr: "Chaudronnier"
+2002:
+  trade_id: 200
+  apprentice_period: 2
+  trade_name_fr: "Cimentier-applicateur"
+2101:
+  trade_id: 210
+  apprentice_period: 1
+  trade_name_fr: "Couvreur"
+2204:
+  trade_id: 220
+  apprentice_period: 4
+  trade_name_fr: "Électricien"
+2223:
+  trade_id: 222
+  apprentice_period: 3
+  trade_name_fr: "Inst. de systèmes de sécurité"
+2303:
+  trade_id: 230
+  apprentice_period: 3
+  trade_name_fr: "Ferblantier"
+2401:
+  trade_id: 240
+  apprentice_period: 1
+  trade_name_fr: "Ferrailleur"
+2551:
+  trade_id: 255
+  apprentice_period: 1
+  trade_name_fr: "Op. pompe béton mât dist. 42m+"
+2571:
+  trade_id: 257
+  apprentice_period: 1
+  trade_name_fr: "Op. pompe béton mât dist. -42m"
+2641:
+  trade_id: 264
+  apprentice_period: 1
+  trade_name_fr: "Grutier - classe A - 1er homme"
+2651:
+  trade_id: 265
+  apprentice_period: 1
+  trade_name_fr: "Grutier-classe A-1er homme (viaduc)"
+2661:
+  trade_id: 266
+  apprentice_period: 1
+  trade_name_fr: "Grutier - classe A - 2e homme"
+2671:
+  trade_id: 267
+  apprentice_period: 1
+  trade_name_fr: "Grutier-classe A-2e homme (viaduc)"
+2681:
+  trade_id: 268
+  apprentice_period: 1
+  trade_name_fr: "Grutier - classe B"
+2691:
+  trade_id: 269
+  apprentice_period: 1
+  trade_name_fr: "Grutier-classe B (viaduc)"
+2725:
+  trade_id: 272
+  apprentice_period: 5
+  trade_name_fr: "Mécanicien d'ascenseur"   
+2745:
+  trade_id: 274
+  apprentice_period: 5
+  trade_name_fr: "Mécanicien d'ascenseur"  
+2803:
+  trade_id: 280
+  apprentice_period: 3
+  trade_name_fr: "Mécanicien de chantier"   
+2903:
+  trade_id: 290
+  apprentice_period: 3
+  trade_name_fr: "Mécanicien de machines lourdes"     
+3002:
+  trade_id: 300
+  apprentice_period: 2
+  trade_name_fr: "Monteur d'acier de structure"       
+3103: 
+  trade_id: 310
+  apprentice_period: 3
+  trade_name_fr: "Monteur-mécanicien (vitrier)"       
+3113:
+  trade_id: 311
+  apprentice_period: 3
+  trade_name_fr: "Inst. miroir, montres-comptoirs"    
+3123:
+  trade_id: 312
+  apprentice_period: 3
+  trade_name_fr: "Monteur-mécanique porte et fenêtre" 
+3133:
+  trade_id: 313
+  apprentice_period: 3
+  trade_name_fr: "Poseur de portes de garage"         
+3241:
+  trade_id: 324
+  apprentice_period: 1
+  trade_name_fr: "Opérateur d'épandeuses"             
+3261:
+  trade_id: 326
+  apprentice_period: 1
+  trade_name_fr: "Opérateur de niveleuses"            
+3311:
+  trade_id: 331
+  apprentice_period: 1
+  trade_name_fr: "Opérateur de rétrocaveuses classe A"
+3331:
+  trade_id: 333
+  apprentice_period: 1
+  trade_name_fr: "Opérateur de rétrocaveuse classe B" 
+3361:
+  trade_id: 336
+  apprentice_period: 1
+  trade_name_fr: "Opérateur de rouleaux - classe A"   
+3371:
+  trade_id: 337
+  apprentice_period: 1
+  trade_name_fr: "Opérateur de rouleaux - classe B"   
+3381:
+  trade_id: 338
+  apprentice_period: 1
+  trade_name_fr: "Opérateur de tracteurs - classe A"  
+3391:
+  trade_id: 339
+  apprentice_period: 1
+  trade_name_fr: "Opérateur de tracteurs - classe B"  
+3471:
+  trade_id: 347
+  apprentice_period: 1
+  trade_name_fr: "Opér. pelles mécaniques - classe AA"
+3481:
+  trade_id: 348
+  apprentice_period: 1
+  trade_name_fr: "Opér. pelles mécaniques - classe A" 
+3491:
+  trade_id: 349
+  apprentice_period: 1
+  trade_name_fr: "Opér. pelles mécaniques - classe B" 
+3503:
+  trade_id: 350
+  apprentice_period: 3
+  trade_name_fr: "Peintre"                            
+3523:
+  trade_id: 352
+  apprentice_period: 3
+  trade_name_fr: "Jointoyeur (Peintre)"               
+3703:
+  trade_id: 370
+  apprentice_period: 3
+  trade_name_fr: "Plâtrier"                           
+3723:
+  trade_id: 372
+  apprentice_period: 3
+  trade_name_fr: "Jointoyeur (Plâtrier)"              
+3803:
+  trade_id: 380
+  apprentice_period: 3
+  trade_name_fr: "Poseur de systèmes intérieurs"      
+3901:
+  trade_id: 390
+  apprentice_period: 1
+  trade_name_fr: "Poseur de revêtements souples"      
+4002:
+  trade_id: 400
+  apprentice_period: 2
+  trade_name_fr:  "Serrurier de bâtiment"              
+4124:
+  trade_id: 412
+  apprentice_period: 4
+  trade_name_fr:  "Plombier (Tuyauteur)"               
+4144:
+  trade_id: 414
+  apprentice_period: 4
+  trade_name_fr:  "Poseur d'appareils de chauffage"    
+4164:
+  trade_id: 416
+  apprentice_period: 4
+  trade_name_fr:  "Mécanicien en protection-incendie"  
+4184:
+  trade_id: 418
+  apprentice_period: 4
+  trade_name_fr:  "Frigoriste"                         
+5003:
+  trade_id: 500
+  apprentice_period: 3
+  trade_name_fr:  "Coffrage à béton (Charp-men)"       
+5381:
+  trade_id: 538
+  apprentice_period: 1
+  trade_name_fr:  "Opérateur de tracteurs classe AA"   
+6010:
+  trade_id: 601
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre en décontamination"       
+6020:
+  trade_id: 602
+  apprentice_period: 0
+  trade_name_fr:  "Opérateur de machine à tension"     
+6030:
+  trade_id: 603
+  apprentice_period: 0
+  trade_name_fr:  "Opérateur de machine à tirer"       
+6040:
+  trade_id: 604
+  apprentice_period: 0
+  trade_name_fr:  "Apprenti-monteur T"                 
+6050:
+  trade_id: 605
+  apprentice_period: 0
+  trade_name_fr:  "Aide-monteur de ligne"              
+6060:
+  trade_id: 606
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre spécialisé (lignes)"      
+6070:
+  trade_id: 607
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre (travaux de couverture)"  
+6080:
+  trade_id: 608
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre spéc.(trav. couverture)"  
+6090:
+  trade_id: 609
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre en maçonnerie"            
+6100:
+  trade_id: 610
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre canalisation souterraine" 
+6110:
+  trade_id: 611
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre sciage béton et asphalte" 
+6120:
+  trade_id: 612
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre nettoyage conduits d'air" 
+6130:
+  trade_id: 613
+  apprentice_period: 0
+  trade_name_fr:  "Assembleur"                         
+6140:
+  trade_id: 614
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre en échaffaudage"          
+6160:
+  trade_id: 616
+  apprentice_period: 0
+  trade_name_fr:  "Boutefeu (lignes)"                  
+6170:
+  trade_id: 617
+  apprentice_period: 0
+  trade_name_fr:  "Boutefeu"                           
+6180:
+  trade_id: 618
+  apprentice_period: 0
+  trade_name_fr:  "Chef équipe tireur cables - transp."
+6190:
+  trade_id: 619
+  apprentice_period: 0
+  trade_name_fr:  "Chef équipe tireur cables - distr." 
+6200:
+  trade_id: 620
+  apprentice_period: 0
+  trade_name_fr:  "Chef équipe tireur cables - comm."  
+6210:
+  trade_id: 621
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre (entr. & nett.)"        
+6250:
+  trade_id: 625
+  apprentice_period: 0
+  trade_name_fr:  "Chauffeur de chaudière à vapeur"    
+6260:
+  trade_id: 626
+  apprentice_period: 0
+  trade_name_fr:  "Chauffeur de chaudière classe IV"   
+6270:
+  trade_id: 627
+  apprentice_period: 0
+  trade_name_fr:  "Opérateur d'usine d'asphalte"       
+6290:
+  trade_id: 629
+  apprentice_period: 0
+  trade_name_fr:  "Commis"                             
+6420:
+  trade_id: 642
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur de camions classe AA"    
+6430:
+  trade_id: 643
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur de camions classe A"     
+6440:
+  trade_id: 644
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur de camions classe B"     
+6450:
+  trade_id: 645
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur de camions classe C"     
+6460:
+  trade_id: 646
+  apprentice_period: 0
+  trade_name_fr:  "Cond. de camions - réseau de comm." 
+6470:
+  trade_id: 647
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur de camions - creusage"   
+6550:
+  trade_id: 655
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur de camions de lignes"    
+6590:
+  trade_id: 659
+  apprentice_period: 0
+  trade_name_fr:  "Opér. concasseurs pierre et gravier"
+6650:
+  trade_id: 665
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur d'engin lourds"          
+6660:
+  trade_id: 666
+  apprentice_period: 0
+  trade_name_fr:  "Conducteur d'engin moyens et légers"
+6830:
+  trade_id: 683
+  apprentice_period: 0
+  trade_name_fr:  "Épisseur (homme de joint)"          
+6840:
+  trade_id: 684
+  apprentice_period: 0
+  trade_name_fr:  "Épisseur fusionneur homme de joints"
+6850:
+  trade_id: 685
+  apprentice_period: 0
+  trade_name_fr:  "Épisseur fusionneur homme de joints"
+6930:
+  trade_id: 693
+  apprentice_period: 0
+  trade_name_fr:  "Émondeur"                           
+6970:
+  trade_id: 697
+  apprentice_period: 0
+  trade_name_fr:  "Foreur"                             
+6980:
+  trade_id: 698
+  apprentice_period: 0
+  trade_name_fr:  "Foreur genre casing"                
+6990:
+  trade_id: 699
+  apprentice_period: 0
+  trade_name_fr:  "Foreur (lignes)"                    
+7000:
+  trade_id: 700
+  apprentice_period: 0
+  trade_name_fr:  "Chef d'équipe (poteaux)"            
+7010:
+  trade_id: 701
+  apprentice_period: 0
+  trade_name_fr:  "Gardien"                            
+7050:
+  trade_id: 705
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre - aide"                   
+7070:
+  trade_id: 707
+  apprentice_period: 0
+  trade_name_fr:  "Op.équip.véh.(tronçon.pé) (lignes)" 
+7090:
+  trade_id: 709
+  apprentice_period: 0
+  trade_name_fr:  "Graisseur-huileur"                  
+7110:
+  trade_id: 711
+  apprentice_period: 0
+  trade_name_fr:  "Magasinier"                         
+7130:
+  trade_id: 713
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre"                          
+7150:
+  trade_id: 715
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre spécialisé carreleur"     
+7190:
+  trade_id: 719
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre spécialisé"               
+7210:
+  trade_id: 721
+  apprentice_period: 0
+  trade_name_fr:  "Méc. de machines lourdes (lignes)"  
+7230:
+  trade_id: 723
+  apprentice_period: 0
+  trade_name_fr:  "Opér. appareils levage - classe A"  
+7240:
+  trade_id: 724
+  apprentice_period: 0
+  trade_name_fr:  "Opér. appareils levage - classe B"  
+7250:
+  trade_id: 725
+  apprentice_period: 0
+  trade_name_fr:  "Monteur A (transport d'énergie)"    
+7270:
+  trade_id: 727
+  apprentice_period: 0
+  trade_name_fr:  "Monteur B (transport d'énergie)"    
+7290:
+  trade_id: 729
+  apprentice_period: 0
+  trade_name_fr:  "Monteur C (transport d'énergie)"    
+7300:
+  trade_id: 730
+  apprentice_period: 0
+  trade_name_fr:  "Monteur de ligne 4e classe - transp"
+7310:
+  trade_id: 731
+  apprentice_period: 0
+  trade_name_fr:  "Monteur T (réseau de communication)"
+7320:
+  trade_id: 732
+  apprentice_period: 0
+  trade_name_fr:  "Fusionneur(fibre optique transport)"
+7330:
+  trade_id: 733
+  apprentice_period: 0
+  trade_name_fr:  "Monteur de ligne A (distribution)"  
+7350:
+  trade_id: 735
+  apprentice_period: 0
+  trade_name_fr:  "Monteur de ligne B (distribution)"  
+7370:
+  trade_id: 737
+  apprentice_period: 0
+  trade_name_fr:  "Monteur de ligne C (distribution)"  
+7380:
+  trade_id: 738
+  apprentice_period: 0
+  trade_name_fr:  "Monteur de ligne 4e classe - distr."
+7390:
+  trade_id: 739
+  apprentice_period: 0
+  trade_name_fr:  "Tireur de cables"                   
+7430:
+  trade_id: 743
+  apprentice_period: 0
+  trade_name_fr:  "Opérateur de compresseur"           
+7450:
+  trade_id: 745
+  apprentice_period: 0
+  trade_name_fr:  "Opérateur de génératrice"          
+7470:
+  trade_id: 7470
+  trade_name_fr:  "Opérateur de pompe et compresseur"  
+7490:
+  trade_id: 7490
+  trade_name_fr:  "Opérateur d'usine fixe ou mobile"   
+7510:
+  trade_id: 751
+  apprentice_period: 0
+  trade_name_fr:  "Plongeur"                           
+7520:
+  trade_id: 752
+  apprentice_period: 0
+  trade_name_fr:  "Plongeur classe 2"                  
+7530:
+  trade_id: 753
+  apprentice_period: 0
+  trade_name_fr:  "Rateleur d'asphalte"                
+7610:
+  trade_id: 761
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur"                            
+7620:
+  trade_id: 762
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur (lignes)"                   
+7630:
+  trade_id: 763
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur de machinerie lourde"       
+7650:
+  trade_id: 765
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur en tuyauterie"              
+7670:
+  trade_id: 767
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur de pipeline"                
+7690: 
+  trade_id: 769
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur chaudronnier"               
+7710:
+  trade_id: 771
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur de distribution"            
+7730:
+  trade_id: 773
+  apprentice_period: 0
+  trade_name_fr:  "Soudeur monteur acier de structure" 
+7750:
+  trade_id: 775
+  apprentice_period: 0
+  trade_name_fr:  "Homme d'instrument (arpenteur)"     
+7760:
+  trade_id: 776
+  apprentice_period: 0
+  trade_name_fr:  "Hommes d'instrument(arpenteur)(lig)"
+7770:
+  trade_id: 777
+  apprentice_period: 0
+  trade_name_fr:  "Chaineur"                           
+7780:
+  trade_id: 778
+  apprentice_period: 0
+  apprentice_period
+  trade_name_fr:  "Arpenteur classe 2"                 
+7790:
+  trade_id: 779
+  apprentice_period: 0
+  trade_name_fr:  "Homme service sur machinerie lourde"
+7810:
+  trade_id: 781
+  apprentice_period: 0
+  trade_name_fr:  "Manoeuvre pipeline"                 
+7830:
+  trade_id: 783
+  apprentice_period: 0
+  trade_name_fr:  "Travailleur souterrain (mineur)"    
+7850:
+  trade_id: 785
+  apprentice_period: 0
+  trade_name_fr:  "Préposé aux pneus et au débosselage"
+7870:
+  trade_id: 787
+  apprentice_period: 0
+  trade_name_fr:  "Spéc. branchement immeuble(gaz fit)"
+7910:
+  trade_id: 791
+  apprentice_period: 0
+  trade_name_fr:  "Poseur de pieux (montage de lignes)"
+7920:
+  trade_id: 792
+  apprentice_period: 0
+  trade_name_fr:  "Opér. machines lourdes (lignes)"    
+7930:
+  trade_id: 793
+  apprentice_period: 0
+  trade_name_fr:  "Charpentier-menuisier (lignes)"     
+7940:
+  trade_id: 794
+  apprentice_period: 0
+  trade_name_fr:  "Électricien (montage de lignes)"   
+

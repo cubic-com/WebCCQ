@@ -1,0 +1,15 @@
+<html>
+
+<%= render(:partial => "trade_ccq_menu_index" ) %>
+
+<div id="menucenter">
+  <%= render(:partial => "trade_ccq_list" ) %>
+
+<br>
+ <%= will_paginate @partners, :previous_label => I18n.translate('will_paginate.prev_page'), :next_label => I18n.translate('will_paginate.next_page')%>
+
+</div>
+
+<%= render(:partial => "trade_ccq_action_index" ) %>
+
+<%= link_to 'New employe_ccq_trade', new_employe_ccq_trade_path %>

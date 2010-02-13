@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  trdeid: 1
+  tradename_fr: MyString
+  trade_name_en: MyString
+
+two:
+  trdeid: 1
+  tradename_fr: MyString
+  trade_name_en: MyString

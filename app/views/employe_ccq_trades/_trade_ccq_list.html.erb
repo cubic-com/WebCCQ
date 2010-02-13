@@ -1,0 +1,32 @@
+<html>
+<div id="table-default">
+  <table summary="CCQ Trade List">
+    <caption><%= I18n.translate('employe_trade_ccq.caption')%></caption>
+    <tr>
+      <th scope="col">
+        <%= I18n.translate('employe_trade_ccq.trade_id')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('employe_trade_ccq.trade_name_fr')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('employe_trade_ccq.trade_name_en')%> 
+      </th>
+    </tr>
+    <% @employe_ccq_trades.each do |trade| %>
+      <tr>
+         <td>
+            <%#= trade.trade_id.to_s[0..2] %>
+            <%=link_to trade.trade_id, trade %>
+          </td>
+          <td>
+            <%= truncate trade.trade_name_fr, :length => 45%>
+          </td>
+          <td>
+            <%= truncate trade.trade_name_en, :lentgh => 40 %>
+          </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+

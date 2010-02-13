@@ -1,0 +1,1201 @@
+# Logfile created on Sat Feb 13 03:12:40 -0500 2010  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (37.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100203081856)
+Migrating to CreateEmployes (20100204081940)
+Migrating to CreateEmployeAttachments (20100208053614)
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (88.7ms)[0m   [0mCREATE TABLE `employe_ccq_trades` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `trade_id` int(11), `trade_name_fr` varchar(255), `trade_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213081241')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mdescribe `employe_attachments`[0m
+  [4;36;1mSQL (16.3ms)[0m   [0;1mSHOW KEYS FROM `employe_attachments`[0m
+  [4;35;1mSQL (24.1ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_trades`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `employe_ccq_trades`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `employes`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `employes`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.2 at 2010-02-13 05:08:11) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` IS NULL) LIMIT 1[0m
+Redirected to http://192.168.90.2:3000/home/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 62ms (DB: 2) | 302 Found [http://192.168.90.2/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#login (for 192.168.90.2 at 2010-02-13 05:08:11) [GET]
+Rendering template within layouts/home
+Rendering home/login
+Rendered layouts/_menumain (1.1ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://192.168.90.2/home/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#login (for 192.168.90.2 at 2010-02-13 05:08:15) [POST]
+  Parameters: {"commit"=>"Ouvrir", "authenticity_token"=>"1sqVX1OBLdFtANW2KQXhBiSWPWTZtXaTxuGFKUPWjfI=", "login"=>"admin", "password"=>"admin"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'admin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'admin' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Update (18.7ms)[0m   [0mUPDATE `users` SET `login_count` = 16, `current_login_ip` = '192.168.90.2', `last_login_at` = '2010-02-13 07:18:15', `updated_at` = '2010-02-13 10:08:15', `current_login_at` = '2010-02-13 10:08:15' WHERE `id` = 1[0m
+  [4;36;1mSQL (8.9ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://192.168.90.2:3000/
+Completed in 209ms (DB: 30) | 302 Found [http://192.168.90.2/home/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.2 at 2010-02-13 05:08:15) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (4.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://192.168.90.2/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.2 at 2010-02-13 05:08:18) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (1.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.9ms)
+Rendered employes/_employelist (18.1ms)
+Rendered employes/_employeactionindex (1.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 88ms (View: 66, DB: 4) | 200 OK [http://192.168.90.2/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:08:25) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (1.5ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (10.8ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (1.1ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 141ms (View: 45, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:08:56) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mEmployeCcqTrade Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (11.4ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 40ms (View: 22, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:14) [GET]
+  Parameters: {"page"=>"2"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (86.2ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 115ms (View: 96, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:17) [GET]
+  Parameters: {"page"=>"3"}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 35ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:20) [GET]
+  Parameters: {"page"=>"4"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (7.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 34ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=4]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:22) [GET]
+  Parameters: {"page"=>"5"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 35ms (View: 17, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:23) [GET]
+  Parameters: {"page"=>"6"}
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (9.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 39ms (View: 19, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:24) [GET]
+  Parameters: {"page"=>"7"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 35ms (View: 17, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:25) [GET]
+  Parameters: {"page"=>"11"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.7ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 35ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=11]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:27) [GET]
+  Parameters: {"page"=>"15"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (7.7ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 33ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=15]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:09:32) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.6ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 36ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:10:52) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 34ms (View: 15, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:11:22) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (10.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 40ms (View: 22, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:11:52) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (11.4ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mEmployeCcqTrade Columns (12.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (23.7ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 96ms (View: 43, DB: 26) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:11:55) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.8ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.4ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 35ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?page=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.2 at 2010-02-13 05:12:05) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (5.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 19ms (View: 9, DB: 2) | 200 OK [http://192.168.90.2/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.2 at 2010-02-13 05:12:07) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.2ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (9.3ms)
+Rendered employes/_employelist (14.4ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 56ms (View: 32, DB: 4) | 200 OK [http://192.168.90.2/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:12:21) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+Rendered employe_ccq_trades/_trade_ccq_list (8.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 36ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:15:40) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+
+ActionView::TemplateError (undefined method `count' for nil:NilClass) on line #4 of app/views/employe_ccq_trades/_trade_ccq_search.html.erb:
+1: <html>
+2: <div id="search-default">
+3:   <table summary="Trade CCQ Search">
+4:   <caption><%= I18n.translate('filter.caption') + " " + @search.count.to_s + " " + I18n.translate('filter.record') %></caption>
+5:      <tr>
+6:       <th scope="col"> <%= I18n.translate('employe_trade_ccq.trade_id')%>  </th>
+7:       <th scope="col"> <%= I18n.translate('employe_trade_ccq.trade_name_fr')%>  %> </th>
+
+    app/views/employe_ccq_trades/_trade_ccq_search.html.erb:4
+    app/views/employe_ccq_trades/index.html.erb:6
+    app/controllers/employe_ccq_trades_controller.rb:7:in `index'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.9ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:16:39) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.2ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 40ms (View: 22, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:18:05) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.5ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.2ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 121ms (View: 22, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:18:11) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"190", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.5ms)[0m   [0mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%190%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%190%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.6ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 36ms (View: 16, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=190&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:18:27) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.7ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (8.9ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.7ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 48ms (View: 27, DB: 4) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:18:30) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>"El"}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (31.7ms)[0m   [0mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%El%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%El%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (11.0ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 142ms (View: 19, DB: 35) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=El&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.112 at 2010-02-13 05:18:52) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (5.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 20ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 05:18:56) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.4ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.4ms)
+Rendered employes/_employelist (14.8ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 57ms (View: 33, DB: 5) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 05:18:57) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.3ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 42ms (View: 22, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 05:19:04) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>"éle"}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%éle%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%éle%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.6ms)
+Rendered employe_ccq_trades/_trade_ccq_list (0.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.1ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 35ms (View: 15, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=%C3%A9le&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 05:19:07) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>"é"}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (140.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%é%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%é%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (11.2ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.3ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 189ms (View: 28, DB: 142) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=%C3%A9&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 05:19:16) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>"lec"}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%lec%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%lec%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.5ms)
+Rendered employe_ccq_trades/_trade_ccq_list (1.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 34ms (View: 16, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=lec&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 05:19:21) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>"É"}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%É%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_name_fr LIKE '%É%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (81.4ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 108ms (View: 89, DB: 4) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=%C3%89&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 05:19:37) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.2ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.8ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 48ms (View: 27, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 05:19:40) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"220", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%220%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%220%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.5ms)
+Rendered employe_ccq_trades/_trade_ccq_list (1.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 37ms (View: 18, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=220&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 05:19:46) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.1ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.4ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (8.6ms)
+Rendered employes/_employelist (12.6ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 50ms (View: 28, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.2 at 2010-02-13 05:19:49) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (5.5ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 20ms (View: 9, DB: 1) | 200 OK [http://192.168.90.2/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.2 at 2010-02-13 05:19:51) [GET]
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (1.3ms)[0m   [0mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.6ms)
+Rendered employes/_employelist (14.1ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 58ms (View: 33, DB: 5) | 200 OK [http://192.168.90.2/employes]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.2 at 2010-02-13 05:20:00) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (1.3ms)[0m   [0mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (8.8ms)
+Rendered employes/_employelist (12.7ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 52ms (View: 29, DB: 5) | 200 OK [http://192.168.90.2/employes]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:20:12) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.5ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.5ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 112ms (View: 22, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.2 at 2010-02-13 05:20:35) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (1.2ms)[0m   [0mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (9.0ms)
+Rendered employes/_employelist (13.0ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 51ms (View: 29, DB: 4) | 200 OK [http://192.168.90.2/employes]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:20:39) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (8.9ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.7ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 41ms (View: 20, DB: 4) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (280.3ms)[0m   [0mDROP TABLE `employe_ccq_trades`[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213081241'[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (46.7ms)[0m   [0mDROP TABLE `employe_attachments`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100208053614'[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (11.3ms)[0m   [0mDROP TABLE `employes`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100204081940'[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (48.5ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100203081856'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (28.6ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `hashed_password` varchar(255) NOT NULL, `salt` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100203081856')[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (44.9ms)[0m   [0mCREATE TABLE `employes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `ssn` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `civil_status` varchar(255), `date_birth` date, `date_hire` date, `date_startemp` date, `date_endemp` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100204081940')[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (2.7ms)[0m   [0mCREATE TABLE `employe_attachments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `employes_id` int(11), `filename` varchar(255), `description` varchar(255), `filesize` int(11), `content_type` varchar(255), `data` blob, `added_user` varchar(255), `added_date` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100208053614')[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (29.7ms)[0m   [0mCREATE TABLE `employe_ccq_trades` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `trade_id` int(11), `apprentice_period` int(11), `trade_name_fr` varchar(255), `trade_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213081241')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW FIELDS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `employe_attachments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `employe_ccq_trades`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_trades`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `employes`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `employes`[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:25:01) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.2ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (8.9ms)
+Rendered employe_ccq_trades/_trade_ccq_list (0.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 31ms (View: 15, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:26:02) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.4ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 42ms (View: 21, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:32:37) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (18.9ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 58ms (View: 38, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:32:40) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 115ms (View: 21, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:32:44) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"1", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%1%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%1%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.9ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 42ms (View: 23, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=1&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:32:49) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"190", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.7ms)[0m   [0mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%190%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%190%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (1.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 35ms (View: 17, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=190&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:32:52) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"19", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.5ms)[0m   [0mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%19%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%19%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 106ms (View: 18, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=19&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:33:00) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"19", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.5ms)[0m   [0mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%19%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%19%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.2ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 37ms (View: 18, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=19&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:33:01) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.7ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (8.9ms)
+Rendered employe_ccq_trades/_trade_ccq_list (2.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 48ms (View: 27, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:34:05) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 114ms (View: 95, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:35:28) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (10.4ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 53ms (View: 32, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#show (for 192.168.90.2 at 2010-02-13 05:35:33) [GET]
+  Parameters: {"id"=>"4372113"}
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.2ms)[0m   [0mSELECT * FROM `employe_ccq_trades` WHERE (`employe_ccq_trades`.`id` = 4372113) [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/show
+Rendered layouts/_menumain (4.5ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 33ms (View: 14, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades/4372113]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:35:37) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (83.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (10.8ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 124ms (View: 103, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.2 at 2010-02-13 05:35:48) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (9.2ms)
+Rendered employes/_employelist (13.1ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 54ms (View: 30, DB: 5) | 200 OK [http://192.168.90.2/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#show (for 192.168.90.2 at 2010-02-13 05:35:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (0.3ms)[0m   [0;1mSELECT * FROM `employes` WHERE (`employes`.`id` = 1) [0m
+  [4;35;1mEmployeAttachment Load (0.3ms)[0m   [0mSELECT * FROM `employe_attachments` WHERE (employes_id = 1) LIMIT 0, 5[0m
+Rendering template within layouts/employes
+Rendering employes/show
+Rendered employes/_employemenushow (1.8ms)
+Rendered employes/_employeactionshow (2.0ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 57ms (View: 36, DB: 4) | 200 OK [http://192.168.90.2/employes/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.2 at 2010-02-13 05:35:52) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.2ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.1ms)
+Rendered employes/_employelist (15.8ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 131ms (View: 34, DB: 4) | 200 OK [http://192.168.90.2/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:35:54) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.9ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 47ms (View: 26, DB: 4) | 200 OK [http://192.168.90.2/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#show (for 192.168.90.2 at 2010-02-13 05:35:58) [GET]
+  Parameters: {"id"=>"4372113"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.4ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (`employe_ccq_trades`.`id` = 4372113) [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/show
+Rendered layouts/_menumain (4.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 25ms (View: 10, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades/4372113]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.2 at 2010-02-13 05:35:59) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (8.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (7.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 44ms (View: 25, DB: 3) | 200 OK [http://192.168.90.2/employe_ccq_trades]

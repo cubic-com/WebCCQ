@@ -1,0 +1,26 @@
+<html>
+<div id="search-default">
+  <table summary="Trade CCQ Search">
+  <caption><%= I18n.translate('filter.caption') + " " + @search.count.to_s + " " + I18n.translate('filter.record') %></caption>
+     <tr>
+      <th scope="col"> <%= I18n.translate('employe_trade_ccq.trade_id')%>  </th>
+      <th scope="col"> <%= I18n.translate('employe_trade_ccq.trade_name_fr')%>  %> </th>
+     </tr>
+     <tr>
+       <% form_for @search do |f| %>
+         <td>
+           <p>
+           <%= f.text_field :trade_id_like, :size => 20 %>
+          <p>
+         </td>
+         <td> 
+           <p>
+           <%= f.text_field :trade_name_fr_like, :size => 20 %>
+           <p>
+         </td>
+      </tr>
+   </table>
+       <br>
+       <%= f.submit "Appliquer les filtres"%>
+       <% end %>
+</div>

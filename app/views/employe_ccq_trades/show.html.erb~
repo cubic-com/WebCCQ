@@ -1,0 +1,18 @@
+<p>
+  <b>Trdeid:</b>
+  <%=h @employe_ccq_trade.trade_id %>
+</p>
+
+<p>
+  <b>Tradename fr:</b>
+  <%=h @employe_ccq_trade.tradename_fr %>
+</p>
+
+<p>
+  <b>Trade name en:</b>
+  <%=h @employe_ccq_trade.trade_name_en %>
+</p>
+
+
+<%= link_to 'Edit', edit_employe_ccq_trade_path(@employe_ccq_trade) %> |
+<%= link_to 'Back', employe_ccq_trades_path %>
