@@ -1,0 +1,68 @@
+<h1>Editing employe</h1>
+
+<% form_for(@employe) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :first_name %><br />
+    <%= f.text_field :first_name %>
+  </p>
+  <p>
+    <%= f.label :last_name %><br />
+    <%= f.text_field :last_name %>
+  </p>
+  <p>
+    <%= f.label :address1 %><br />
+    <%= f.text_field :address1 %>
+  </p>
+  <p>
+    <%= f.label :address2 %><br />
+    <%= f.text_field :address2 %>
+  </p>
+  <p>
+    <%= f.label :province %><br />
+    <%= f.text_field :province %>
+  </p>
+  <p>
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </p>
+  <p>
+    <%= f.label :postal_code %><br />
+    <%= f.text_field :postal_code %>
+  </p>
+  <p>
+    <%= f.label :ssn %><br />
+    <%= f.text_field :ssn %>
+  </p>
+  <p>
+    <%= f.label :date_birth %><br />
+    <%= f.date_select :date_birth %>
+  </p>
+  <p>
+    <%= f.label :date_hire %><br />
+    <%= f.date_select :date_hire %>
+  </p>
+  <p>
+    <%= f.label :date_startemp %><br />
+    <%= f.date_select :date_startemp %>
+  </p>
+  <p>
+    <%= f.label :date_endemp %><br />
+    <%= f.text_field :date_endemp %>
+  </p>
+  <p>
+    <%= f.label :country %><br />
+    <%= f.text_field :country %>
+  </p>
+  <p>
+    <%= f.label :civil_status %><br />
+    <%= f.text_field :civil_status %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @employe %> |
+<%= link_to 'Back', employes_path %>

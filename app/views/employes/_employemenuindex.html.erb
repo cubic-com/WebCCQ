@@ -1,0 +1,14 @@
+<html>
+<%if session[:user_id]%>
+  <div id="menuleft">
+    <h3>Menu</h3>
+     <ul>
+      <li>
+         <%= link_to 'New employe', new_employe_path %>
+      </li>
+      <li>
+        Menu 2
+      </li>
+    </ul>
+  </div>
+<% end %>

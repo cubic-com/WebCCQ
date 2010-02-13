@@ -1,0 +1,26 @@
+<html>
+<div id="search-default">
+  <table summary="Empoye Search">
+  <caption><%= I18n.translate('filter.caption') + " " + @search.count.to_s + " " + I18n.translate('filter.record') %></caption>
+     <tr>
+      <th scope="col"> <%= I18n.translate('employes_table.last_name') %> </th>
+      <th scope="col"> <%= I18n.translate('employes_table.first_name') %> </th>
+     </tr>
+     <tr>
+       <% form_for @search do |f| %>
+         <td>
+           <p>
+           <%= f.text_field :last_name_like, :size => 20 %>
+          <p>
+         </td>
+         <td> 
+           <p>
+           <%= f.text_field :first_name_like, :size => 20 %>
+           <p>
+         </td>
+      </tr>
+   </table>
+       <br>
+       <%= f.submit "Appliquer les filtres"%>
+       <% end %>
+</div>

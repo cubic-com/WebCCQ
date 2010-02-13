@@ -1,0 +1,14 @@
+<html>
+<%if session[:user_id]%>
+  <div id="employeaction">
+    <h3>Action</h3>
+    <ul>
+      <li>
+        Email
+      </li>
+      <li>
+        <%= link_to 'Back', employes_path %> 
+      </li>
+    </ul>
+  </div>
+<% end %>

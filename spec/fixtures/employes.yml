@@ -1,0 +1,33 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  first_name: Andre 
+  last_name: Roberge
+  address1: 871 Boul. Trudel 
+  address2: blank
+  province: Quebec
+  city: Saint-Barnabe Nord
+  postal_code: G0X 2K0
+  nas: 262664501
+  date_birth: 2010-02-04
+  date_hire: 2010-02-04
+  date_startemp: 2010-02-04
+  date_endemp: MyString
+  country: MyString
+  civil_status: MyString
+
+two:
+  first_name: 
+  last_name: MyString
+  address1: MyString
+  address2: MyString
+  province: MyString
+  city: MyString
+  code_postal: MyString
+  nas: MyString
+  date_birth: 2010-02-04
+  date_hire: 2010-02-04
+  date_startemp: 2010-02-04
+  date_endemp: MyString
+  country: MyString
+  civil_status: MyString

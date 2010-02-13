@@ -1,0 +1,12 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  login: admin
+  password: admin
+  email: admin@cubic-com.net
+  hashed_password: 6c5349f535c4b3045cd65ab7cad7032dae2c60a1
+  salt: 699234654465000.738989835825469
+  
+two:
+  login: MyString
+  email: MyString

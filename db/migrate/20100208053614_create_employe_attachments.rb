@@ -1,0 +1,19 @@
+class CreateEmployeAttachments < ActiveRecord::Migration
+def self.up
+    create_table :employe_attachments do |t|
+      t.integer :employes_id
+      t.string  :filename
+      t.string  :description
+      t.integer :filesize
+      t.string  :content_type
+      t.binary  :data
+      t.string  :added_user
+      t.date  :added_date
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :employe_attachments
+  end
+end

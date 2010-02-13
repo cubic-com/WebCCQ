@@ -1,0 +1,14 @@
+%div#menu
+  %ul
+    %li
+      %a{:href => '/'}= I18n.translate('menu.home')
+    %li
+      %a{:href => '/service'}= I18n.translate('menu.service')
+    %li
+      %a{:href => '/solution'}= I18n.translate('menu.solution')
+    %li
+      %a{:href => '/blog'}= I18n.translate('menu.blog')
+    %li
+      %a{:href => '/contact'}= I18n.translate('menu.contact')
+    %li
+      %a{:href => '/fr'}= "?"

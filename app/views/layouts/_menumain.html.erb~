@@ -1,0 +1,13 @@
+<html>
+<%if session[:user_id]%>
+  <div id="menu">
+    <ul>
+      <li>
+        <a href="/"><%= I18n.translate('menu.home') %></a>
+      </li>
+      <li>
+        <a href="/employes">Employes</a>
+      </li>
+    </ul>
+  </div>
+<% end %>

@@ -1,0 +1,35 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  login: 
+    loginprompt: "Please log on"
+    login: "Login"
+    password: "Password"
+    submit: "Login"
+  menu: 
+    home: "Accueil"
+    employe: "Employé"
+  employes_table:
+    caption: "Liste d'employées"
+    last_name: "Last Name"
+    first_name: "First Name"
+    address1: "Address"
+    city: "City"
+    province: "Province"
+    phone1: "Tel."
+    email: "Email"
+  employe_attachment:
+    caption: "Attached file list"
+    file_name: "File Name"
+    file_description: "Description"
+    file_size: "File size"
+    content_type: "File Type"
+    added_date: "Date added"
+    added_by: "By user "
+  will_paginate:
+    prev_page: "Previous"
+    next_page: "Next"
+  filter:
+    caption: "Search Filter"
+    record: "record"

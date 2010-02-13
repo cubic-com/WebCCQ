@@ -1,0 +1,60 @@
+#!/usr/bin/ruby -w
+
+# Utilise le gem populator et le gem faker pour cree des donnes des test 
+# dans la table supplier.
+#
+$LOAD_PATH.push("/home/andre/railsapp/webccq")
+require 'rubygems'
+require 'yaml'
+require 'active_record'
+require 'faker'
+require 'populator'
+
+
+
+ActiveRecord::Base.establish_connection(
+:adapter => "mysql",
+:host => "localhost",
+:database => "webccq_dev",
+:username => "root",
+:password => "preventer"
+)
+
+## Populate the table Company_infos with some developement data
+#
+class User < ActiveRecord::Base
+end
+User.delete_all
+
+User.populate 1 do |user|
+   user.login = "admin"
+   user.first_name = "Site Admin"
+   user.last_name = "Cubic-com"
+   user.email = "webmaster@cubic-com.net"
+   user.hashed_password = "6c5349f535c4b3045cd65ab7cad7032dae2c60a1"
+   user.salt = "699234654465000.738989835825469"
+   user.login_count = "0"
+   user.failed_login_count ="0"
+end
+
+## Populate the table Company_infos with some developement data
+#
+class Employe < ActiveRecord::Base
+end
+Employe.delete_all
+
+Employe.populate 100 do |employe|
+   employe.first_name =  Faker::Name.first_name
+   employe.last_name =  Faker::Name.last_name
+   employe.address1 = Faker::Address.street_address
+   employe.phone1 = Faker::PhoneNumber.phone_number
+   employe.city = Faker::Address.city
+   employe.province = Faker::Address.us_state
+   employe.phone1 = Faker::PhoneNumber.phone_number
+   employe.email = Faker::Internet.email
+   employe.ssn = rand(9).to_s + rand(9).to_s + rand(9).to_s + '-' + rand(9).to_s + rand(9).to_s + rand(9).to_s +  '-' + rand(9).to_s + rand(9).to_s + rand(9).to_s
+   employe.country = 'Canada'
+   clues = ['vitamins', 'minerals', 'chocolates']
+   employe.province = Faker::Array.shuffle(clues)
+end
+

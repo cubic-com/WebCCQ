@@ -1,0 +1,17 @@
+<html>
+
+<%= render(:partial => "employemenuindex" ) %>
+
+<div id="menucenter">
+  <%= render(:partial => "employesearch" ) %>
+
+  <div id="ajaxWrapper">
+   <%= render(:partial => "employelist" ) %>
+  </div>
+  <br />
+  <%= will_paginate @partners, :previous_label => I18n.translate('will_paginate.prev_page'), :next_label => I18n.translate('will_paginate.next_page')%>
+
+
+  <%= link_to 'New employe', new_employe_path %>
+</div>
+<%= render(:partial => "employeactionindex" ) %>

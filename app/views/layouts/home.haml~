@@ -1,0 +1,16 @@
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang => "en"}
+  %head
+    %meta{'http-equiv' => "Content-Type", :content=> "text/html;charset=utf-8"}
+    %title Cubic-com.net Open Source pour la PME
+    %link{:rel=>'stylesheet', :href=>'/stylesheets/style.css', :type => "text/css"} 
+      
+-#  
+  Ceci est un commentaire
+%body 
+  %div#wrap
+    = image_tag("hardhat.png" )
+    = render :partial => "layouts/_menumain"
+    = yield
+    %div#footer
+    -#
+      = render :partial => "layouts/_footer"

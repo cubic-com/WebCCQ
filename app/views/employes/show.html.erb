@@ -1,0 +1,145 @@
+<html>
+
+<%= render(:partial => "employemenushow" ) %>
+
+<div id="menucenter">
+  <p>
+    <b>ID:</b>
+    <%=h @employe.id %>
+  </p>
+  <p>
+    <b>First name:</b>
+    <%=h @employe.first_name %>
+  </p>
+
+  <p>
+    <b>Last name:</b>
+    <%=h @employe.last_name %>
+  </p>
+
+  <p>
+    <b>Address1:</b>
+    <%=h @employe.address1 %>
+  </p>
+
+  <p>
+    <b>Address2:</b>
+    <%=h @employe.address2 %>
+  </p>
+
+  <p>
+    <b>Province:</b>
+    <%=h @employe.province %>
+  </p>
+
+  <p>
+    <b>City:</b>
+    <%=h @employe.city %>
+  </p>
+
+  <p>
+    <b>Code postal:</b>
+    <%=h @employe.postal_code %>
+  </p>
+
+  <p>
+    <b>ssn:</b>
+    <%=h @employe.ssn %>
+  </p>
+   <p>
+    <b>Email:</b>
+    <%=h @employe.email %>
+  </p>
+
+  <p>
+    <b>Date birth:</b>
+    <%=h @employe.date_birth %>
+  </p>
+
+  <p>
+    <b>Date hire:</b>
+    <%=h @employe.date_hire %>
+  </p>
+
+  <p>
+    <b>Date startemp:</b>
+    <%=h @employe.date_startemp %>
+  </p>
+
+  <p>
+    <b>Date endemp:</b>
+    <%=h @employe.date_endemp %>
+  </p>
+
+  <p>
+    <b>Country:</b>
+    <%=h @employe.country %>
+  </p>
+
+  <p>
+    <b>Civil status:</b>
+    <%=h @employe.civil_status %>
+  </p>
+  <br>
+  <div id="search-default">
+    <table summary="Employe Attachement">
+      <caption>
+        <%= I18n.translate('employe_attachment.caption') %>
+      </caption>
+      <tr>
+        <th>
+          <%= I18n.translate('employe_attachment.file_name') %>
+        </th>
+         <th>
+          <%= I18n.translate('employe_attachment.file_description') %>
+        </th>
+        <th>
+          <%= I18n.translate('employe_attachment.file_size') %>
+        </th>
+        <th>
+          <%= I18n.translate('employe_attachment.content_type') %>
+        </th>
+        <th>
+          <%= I18n.translate('employe_attachment.added_date') %>
+        </th>
+        <th>
+          <%= I18n.translate('employe_attachment.added_by') %>
+        </th>
+      </tr>
+      <% @employe_attachments.each do |attachment| %>
+      <tr>
+         <td>
+            <%= truncate(attachment.filename,:lenght => 25) %>
+           
+          </td>
+          <td>
+            <%= truncate(attachment.description,:lenght => 35) %>
+          </td>
+          <td>
+            <%= attachment.filesize %>
+          </td>
+          <td>
+            <%= truncate(attachment.content_type,:lenght => 25) %>
+          </td>
+          <td>
+            <%= attachment.added_date.to_s%>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+      <%= will_paginate @employe_attachments, :previous_label => I18n.translate('will_paginate.prev_page'), :next_label => I18n.translate('will_paginate.next_page')%>
+  </div>
+  <% form_tag 'create_attachment', :multipart => true do %>
+	  <%= file_field_tag 'attachment' %>
+	  <%= hidden_field_tag(:id, @employe.id )%>
+	  <%= submit_tag "Send Attachment" %>
+  <% end %>
+  <%#= debug(@employe_attachments)%>
+
+</div>
+
+
+  <%= render(:partial => "employeactionshow" ) %>
+
+
+

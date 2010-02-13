@@ -1,0 +1,14 @@
+<html>
+<%if session[:user_id]%>
+  <div id="menuright">
+    <h3>Action</h3>
+    <ul>
+      <li>
+        <%= link_to 'EMail', :controler => "emailsender", :action => "email_employe" %>
+      </li>
+      <li>
+        <%= link_to 'Back', employes_path %> 
+      </li>
+    </ul>
+  </div>
+<% end %>

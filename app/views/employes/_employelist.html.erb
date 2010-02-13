@@ -1,0 +1,43 @@
+<html>
+<div id="table-default">
+  <table summary="Employes List">
+    <caption><%= I18n.translate('employes_table.caption')%></caption>
+    <tr>
+      <th scope="col">
+        <%= I18n.translate('employes_table.last_name')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('employes_table.first_name')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('employes_table.address1')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('employes_table.city')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('employes_table.phone1')%> 
+      </th>
+    </tr>
+    <% @employes.each do |employe| %>
+      <tr>
+         <td>
+            <%=link_to employe.last_name, employe %>
+          </td>
+          <td>
+            <%=link_to employe.first_name, employe %>
+          </td>
+          <td>
+            <%= employe.address1 %>
+          </td>
+          <td>
+            <%= employe.city %>
+          </td>
+          <td>
+            <%= employe.phone1 %>
+          </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+

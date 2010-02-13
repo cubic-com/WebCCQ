@@ -1,0 +1,7 @@
+<%=request.remote_ip %>
+<br>
+<%=request.server_software %>
+<br>
+<%=request.user_agent %>
+<br>
+<%= debug(session[]) %>

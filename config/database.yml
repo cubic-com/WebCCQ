@@ -1,0 +1,21 @@
+# SQLite version 3.x
+#   gem install sqlite3-ruby (not necessary on OS X Leopard)
+login: &login
+  adapter: mysql
+  socket: /var/lib/mysql/mysql.sock
+  username: root
+  password: preventer
+  host: localhost
+  
+development:
+  <<: *login
+  database: webccq_dev
+
+test:
+  <<: *login
+  database: webccq_test
+  
+production:
+  <<: *login
+  database: webccq
+

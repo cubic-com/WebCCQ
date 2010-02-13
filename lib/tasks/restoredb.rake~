@@ -1,0 +1,4 @@
+task :restoredb do 
+  sh "ruby '#{Dir.pwd}/rake dm:migrate VERSION=0'"
+  #sh "ruby '/home/andre/Ruby Script/OpenAccountAPI/db/migrate/data/popufake_customer.rb'"
+end
