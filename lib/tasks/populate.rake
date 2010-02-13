@@ -4,5 +4,9 @@ task :populate do
   sh "rake db:fixtures:load FIXTURES=employe_ccq_trades"
   # Load ccq_sector code from fixture
   sh "rake db:fixtures:load FIXTURES=employe_ccq_sectors"
+  # Load ccq_qualification code from fixture
+  sh "rake db:fixtures:load FIXTURES=employe_ccq_qualifications"
+  # Load ccq_qualification code from fixture
+  sh "rake db:fixtures:load FIXTURES=employe_ccq_schedules"
 
 end

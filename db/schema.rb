@@ -25,13 +25,15 @@ ActiveRecord::Schema.define(:version => 20100213134601) do
   end
 
   create_table "employe_ccq_qualifications", :force => true do |t|
+    t.string   "qualification_code"
     t.string   "qualification_name_fr"
-    t.string   "qualifaction_name_en"
+    t.string   "qualification_name_en"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "employe_ccq_schedules", :force => true do |t|
+    t.string   "schedule_code"
     t.string   "schedule_name_fr"
     t.string   "schedule_name_en"
     t.datetime "created_at"
