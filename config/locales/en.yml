@@ -38,8 +38,9 @@ en:
     trade_name_fr: "Nom du métier"
   project:
     caption: "Project List"
-    project_name: "Name"
-    project_description: "Description"
+    name: "Project Name"
+    description: "Description"
+    status: "Status"
   contact:
     caption: "Contacts List"
     last_name: "Last Name"

@@ -9,7 +9,7 @@ fr:
     submit: "Ouvrir"
   menu: 
     home: "Accueil"
-    employe: "Salaire"
+    employe: "Salaires"
     project: "Projet"
     customer: "Client"
     contact: "Contact"
@@ -39,8 +39,9 @@ fr:
     trade_name_fr: "Nom du métier"
   project:
     caption: "Liste de projets"
-    project_name: "Nom"
-    project_description: "Description"
+    name: "Nom du projet"
+    description: "Description"
+    status: "Etats"
   contact:
     caption: "Liste des contacts"
     last_name: "Nom"

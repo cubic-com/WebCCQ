@@ -38,8 +38,8 @@ en:
     trade_name_fr: "Nom du métier"
   project:
     caption: "Project List"
-    project_name: "Name"
-    project_description: "Description"
+    name: "Project Name"
+    description: "Description"
   contact:
     caption: "Contacts List"
     last_name: "Last Name"
@@ -66,6 +66,8 @@ en:
   customer:
     caption: "Customer List"
     customer_name: "Name"
+    last_name: "Last Name"
+    first_name: "First Name"
     address1: "Address"
     city: "City"
     province: "Province"

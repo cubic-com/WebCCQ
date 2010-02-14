@@ -134,8 +134,9 @@ ActiveRecord::Schema.define(:version => 20100214030349) do
   end
 
   create_table "projects", :force => true do |t|
-    t.string   "project_name"
-    t.string   "project_description"
+    t.string   "name",        :limit => 30, :default => "", :null => false
+    t.string   "description",               :default => "", :null => false
+    t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
