@@ -36,7 +36,22 @@ ActiveRecord::Schema.define(:version => 20100214030349) do
   end
 
   create_table "customers", :force => true do |t|
-    t.string   "customer_name"
+    t.string   "company_name"
+    t.string   "first_name"
+    t.string   "last_name",    :null => false
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "province"
+    t.string   "country"
+    t.string   "postal_code"
+    t.string   "phone1"
+    t.string   "phone2"
+    t.string   "phone3"
+    t.string   "email"
+    t.string   "spoken_lang"
+    t.integer  "created_by"
+    t.string   "note"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -127,6 +142,20 @@ ActiveRecord::Schema.define(:version => 20100214030349) do
 
   create_table "suppliers", :force => true do |t|
     t.string   "supplier_name"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "province"
+    t.string   "country"
+    t.string   "postal_code"
+    t.string   "phone1"
+    t.string   "phone2"
+    t.string   "phone3"
+    t.string   "email"
+    t.string   "web"
+    t.string   "spoken_lang"
+    t.integer  "created_by"
+    t.string   "note"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
