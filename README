@@ -1,8 +1,9 @@
 = Web CCQ = 
 Is a small project to create an Online Pay roll for the Commision de la construction du Quebec. The project is Alpha for now.
 
-The project is using different Open Source programing language : 
-    Ruby On Rails
+The project use different Open Source programming language and technologies : 
+    Ruby On Rails 
+    CSS
     Java 
     JavaScript
     Ajax
