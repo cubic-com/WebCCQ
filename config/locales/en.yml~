@@ -10,6 +10,9 @@ en:
   menu: 
     home: "Accueil"
     employe: "Employé"
+    project: "Project"
+    customer: "Customer"
+    supplier: "Supplier"
   employes_table:
     caption: "Liste d'employées"
     last_name: "Last Name"
@@ -30,6 +33,12 @@ en:
   employe_trade_ccq:
     caption: "CCQ trade List"
     trade_id: "Trade No."
+    trade_name_en: "Trade Name"
+    trade_name_fr: "Nom du métier"
+  project:
+    caption: "Project List"
+    project_name: "Name"
+    project_description: "Description"
   will_paginate:
     prev_page: "Previous"
     next_page: "Next"

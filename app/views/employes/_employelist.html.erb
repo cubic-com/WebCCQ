@@ -28,13 +28,13 @@
             <%=link_to employe.first_name, employe %>
           </td>
           <td>
-            <%= employe.address1 %>
+            <%= truncate(employe.address1, :length => 20) %>
           </td>
           <td>
-            <%= employe.city %>
+            <%= truncate(employe.city, :length => 20) %>
           </td>
           <td>
-            <%= employe.phone1 %>
+            <%= truncate(employe.phone1, :length => 20) %>
           </td>
       </tr>
     <% end %>

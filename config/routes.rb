@@ -1,4 +1,14 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :contacts
+
+  map.resources :customers
+
+  map.resources :suppliers
+
+  map.resources :pay_codes
+
+  map.resources :projects
+
   map.resources :employe_ccq_schedules
 
   map.resources :employe_ccq_qualifications

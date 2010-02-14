@@ -10,6 +10,9 @@ fr:
   menu: 
     home: "Accueil"
     employe: "Employé"
+    project: "Projet"
+    customer: "Client"
+    supplier: "Founisseur"
   # Translation for Employes Table 
   employes_table:
     caption: "Liste d'employées"
@@ -31,6 +34,12 @@ fr:
   employe_trade_ccq:
     caption: "Liste des métiers de la CCQ"
     trade_id: "No. métier"
+    trade_name_en: "Trade Name"
+    trade_name_fr: "Nom du métier"
+  project:
+    caption: "Liste de projets"
+    project_name: "Nom"
+    project_description: "Description"
     
   will_paginate:
     prev_page: "Précédent"
