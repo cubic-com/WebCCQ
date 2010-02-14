@@ -12,6 +12,7 @@ fr:
     employe: "Employé"
     project: "Projet"
     customer: "Client"
+    contact: "Contact"
     supplier: "Founisseur"
   # Translation for Employes Table 
   employes_table:

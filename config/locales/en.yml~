@@ -9,8 +9,9 @@ en:
     submit: "Login"
   menu: 
     home: "Accueil"
-    employe: "Employé"
+    employe: "Salary"
     project: "Project"
+    contact: "Contact"
     customer: "Customer"
     supplier: "Supplier"
   employes_table:

@@ -5340,3 +5340,2016 @@ Rendering contacts/index
 Rendered layouts/_menumain (5.9ms)
 Rendered layouts/_footer (0.1ms)
 Completed in 25ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:08:05) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (76.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 96ms (View: 80, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:08:15) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (5.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 26ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.112 at 2010-02-13 22:08:17) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (5.2ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 20ms (View: 8, DB: 2) | 200 OK [http://192.168.90.3/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:08:19) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (6.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 27ms (View: 10, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 192.168.90.112 at 2010-02-13 22:08:20) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Rendered projects/_project_menu_index (0.3ms)
+Rendered projects/_project_search (0.1ms)
+Rendered projects/_project_list (5.7ms)
+Rendered projects/_project_action_index (0.4ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 11, DB: 2) | 200 OK [http://192.168.90.3/projects]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CustomersController#index (for 192.168.90.112 at 2010-02-13 22:08:22) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCustomer Load (0.3ms)[0m   [0mSELECT * FROM `customers` [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Rendered layouts/_menumain (5.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 25ms (View: 8, DB: 2) | 200 OK [http://192.168.90.3/customers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SuppliersController#index (for 192.168.90.112 at 2010-02-13 22:08:23) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSupplier Load (0.3ms)[0m   [0mSELECT * FROM `suppliers` [0m
+Rendering template within layouts/suppliers
+Rendering suppliers/index
+Rendered layouts/_menumain (6.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 27ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/suppliers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:08:25) [GET]
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.9ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.4ms)
+Rendered employes/_employelist (19.0ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 68ms (View: 43, DB: 5) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:08:28) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (77.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 96ms (View: 81, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.112 at 2010-02-13 22:09:06) [GET]
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (5.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 22ms (View: 10, DB: 1) | 200 OK [http://192.168.90.3/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:09:07) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (5.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 25ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 192.168.90.112 at 2010-02-13 22:09:09) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Rendered projects/_project_menu_index (0.4ms)
+Rendered projects/_project_search (0.1ms)
+Rendered projects/_project_list (6.5ms)
+Rendered projects/_project_action_index (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 102ms (View: 86, DB: 2) | 200 OK [http://192.168.90.3/projects]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CustomersController#index (for 192.168.90.112 at 2010-02-13 22:09:11) [GET]
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCustomer Load (0.2ms)[0m   [0;1mSELECT * FROM `customers` [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Rendered layouts/_menumain (5.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 27ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/customers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SuppliersController#index (for 192.168.90.112 at 2010-02-13 22:09:12) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSupplier Load (0.3ms)[0m   [0;1mSELECT * FROM `suppliers` [0m
+Rendering template within layouts/suppliers
+Rendering suppliers/index
+Rendered layouts/_menumain (5.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 25ms (View: 8, DB: 2) | 200 OK [http://192.168.90.3/suppliers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:09:13) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (1.1ms)[0m   [0mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.9ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (9.7ms)
+Rendered employes/_employelist (14.7ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 120ms (View: 33, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.112 at 2010-02-13 22:09:14) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (5.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:09:22) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (1.0ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.0ms)
+Rendered employes/_employelist (15.8ms)
+Rendered employes/_employeactionindex (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 59ms (View: 35, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:11:16) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.4ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (1.0ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.9ms)
+Rendered employes/_employelist (16.9ms)
+Rendered employes/_employeactionindex (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 64ms (View: 37, DB: 5) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:11:20) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.1ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.8ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.2ms)
+Rendered employes/_employelist (15.5ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 60ms (View: 35, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:11:23) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.1ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.9ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (9.4ms)
+Rendered employes/_employelist (14.4ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 55ms (View: 32, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 192.168.90.112 at 2010-02-13 22:11:35) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Rendered projects/_project_menu_index (0.3ms)
+Rendered projects/_project_search (0.1ms)
+Rendered projects/_project_list (5.3ms)
+Rendered projects/_project_action_index (0.4ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 27ms (View: 11, DB: 2) | 200 OK [http://192.168.90.3/projects]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CustomersController#index (for 192.168.90.112 at 2010-02-13 22:11:37) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCustomer Load (0.2ms)[0m   [0mSELECT * FROM `customers` [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Rendered layouts/_menumain (6.5ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 28ms (View: 10, DB: 2) | 200 OK [http://192.168.90.3/customers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SuppliersController#index (for 192.168.90.112 at 2010-02-13 22:11:38) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSupplier Load (0.3ms)[0m   [0mSELECT * FROM `suppliers` [0m
+Rendering template within layouts/suppliers
+Rendering suppliers/index
+Rendered layouts/_menumain (6.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 26ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/suppliers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:11:39) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (5.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 25ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:12:57) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (6.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 28ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:12:59) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (5.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 26ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 192.168.90.112 at 2010-02-13 22:13:00) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Rendered projects/_project_menu_index (0.4ms)
+Rendered projects/_project_search (0.2ms)
+Rendered projects/_project_list (5.4ms)
+Rendered projects/_project_action_index (0.4ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 28ms (View: 11, DB: 2) | 200 OK [http://192.168.90.3/projects]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CustomersController#index (for 192.168.90.112 at 2010-02-13 22:13:02) [GET]
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCustomer Load (0.2ms)[0m   [0mSELECT * FROM `customers` [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Rendered layouts/_menumain (6.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 27ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/customers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SuppliersController#index (for 192.168.90.112 at 2010-02-13 22:13:03) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSupplier Load (0.2ms)[0m   [0mSELECT * FROM `suppliers` [0m
+Rendering template within layouts/suppliers
+Rendering suppliers/index
+Rendered layouts/_menumain (5.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 25ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/suppliers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:13:04) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.9ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (81.5ms)
+Rendered employes/_employelist (16.9ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 131ms (View: 108, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 192.168.90.112 at 2010-02-13 22:13:06) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Rendered projects/_project_menu_index (0.4ms)
+Rendered projects/_project_search (0.2ms)
+Rendered projects/_project_list (5.6ms)
+Rendered projects/_project_action_index (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 29ms (View: 11, DB: 2) | 200 OK [http://192.168.90.3/projects]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 192.168.90.112 at 2010-02-13 22:38:05) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/home
+Rendering home/index
+Rendered layouts/_menumain (5.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:38:06) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (6.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 27ms (View: 10, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 192.168.90.112 at 2010-02-13 22:38:08) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Rendered projects/_project_menu_index (0.3ms)
+Rendered projects/_project_search (0.1ms)
+Rendered projects/_project_list (5.6ms)
+Rendered projects/_project_action_index (0.4ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 28ms (View: 11, DB: 2) | 200 OK [http://192.168.90.3/projects]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CustomersController#index (for 192.168.90.112 at 2010-02-13 22:38:15) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCustomer Load (0.2ms)[0m   [0;1mSELECT * FROM `customers` [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Rendered layouts/_menumain (5.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 26ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/customers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SuppliersController#index (for 192.168.90.112 at 2010-02-13 22:38:18) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSupplier Load (0.2ms)[0m   [0;1mSELECT * FROM `suppliers` [0m
+Rendering template within layouts/suppliers
+Rendering suppliers/index
+Rendered layouts/_menumain (6.5ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 28ms (View: 10, DB: 2) | 200 OK [http://192.168.90.3/suppliers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:38:21) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (1.2ms)[0m   [0mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (1.0ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.4ms)
+Rendered employes/_employelist (16.5ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 62ms (View: 36, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 22:38:26) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.8ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (1.8ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (14.2ms)
+Rendered employe_ccq_trades/_trade_ccq_list (12.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (1.2ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 166ms (View: 144, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 22:38:29) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.6ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.6ms)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.1ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 51ms (View: 29, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqSchedulesController#index (for 192.168.90.112 at 2010-02-13 22:38:39) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqSchedule Load (0.3ms)[0m   [0;1mSELECT * FROM `employe_ccq_schedules` [0m
+Rendering template within layouts/employe_ccq_schedules
+Rendering employe_ccq_schedules/index
+  [4;35;1mEmployeCcqSchedule Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_schedules`[0m
+Rendered layouts/_menumain (6.2ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 151ms (View: 54, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_schedules]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:38:45) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (5.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 23ms (View: 8, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SuppliersController#index (for 192.168.90.112 at 2010-02-13 22:38:49) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSupplier Load (0.3ms)[0m   [0mSELECT * FROM `suppliers` [0m
+Rendering template within layouts/suppliers
+Rendering suppliers/index
+Rendered layouts/_menumain (5.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 25ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/suppliers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 192.168.90.112 at 2010-02-13 22:39:25) [GET]
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Rendered projects/_project_menu_index (0.3ms)
+Rendered projects/_project_search (0.1ms)
+Rendered projects/_project_list (5.9ms)
+Rendered projects/_project_action_index (0.4ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 29ms (View: 12, DB: 1) | 200 OK [http://192.168.90.3/projects]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:39:39) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.4ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.9ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (10.4ms)
+Rendered employes/_employelist (16.6ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 61ms (View: 36, DB: 5) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 22:39:43) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.6ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (11.5ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 125ms (View: 31, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 22:39:46) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"190", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.4ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%190%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%190%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (3.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 41ms (View: 20, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=190&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#show (for 192.168.90.112 at 2010-02-13 22:39:48) [GET]
+  Parameters: {"id"=>"587188514"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.2ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (`employe_ccq_trades`.`id` = 587188514) [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/show
+Rendered layouts/_menumain (4.9ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 31ms (View: 14, DB: 2) | 200 OK [http://192.168.90.3/employe_ccq_trades/587188514]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:40:16) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (6.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 27ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (26.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (11.3ms)[0m   [0mDROP TABLE `contacts`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214030349'[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (20.9ms)[0m   [0mDROP TABLE `customers`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025333'[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (2.1ms)[0m   [0mDROP TABLE `suppliers`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025314'[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `pay_codes`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022746'[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (2.3ms)[0m   [0mDROP TABLE `projects`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022637'[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (2.3ms)[0m   [0mDROP TABLE `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134601'[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134515'[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (2.0ms)[0m   [0mDROP TABLE `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134430'[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (2.5ms)[0m   [0mDROP TABLE `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213081241'[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `employe_attachments`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100208053614'[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (2.3ms)[0m   [0mDROP TABLE `employes`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100204081940'[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (2.2ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100203081856'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (30.0ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `hashed_password` varchar(255) NOT NULL, `salt` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100203081856')[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (2.7ms)[0m   [0mCREATE TABLE `employes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `ssn` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `civil_status` varchar(255), `date_birth` date, `date_hire` date, `date_startemp` date, `date_endemp` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100204081940')[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (2.2ms)[0m   [0mCREATE TABLE `employe_attachments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `employes_id` int(11), `filename` varchar(255), `description` varchar(255), `filesize` int(11), `content_type` varchar(255), `data` blob, `added_user` varchar(255), `added_date` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100208053614')[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (1.8ms)[0m   [0mCREATE TABLE `employe_ccq_trades` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `trade_id` int(11), `apprentice_period` int(11), `trade_name_fr` varchar(255), `trade_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213081241')[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (1.8ms)[0m   [0mCREATE TABLE `employe_ccq_sectors` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `sector_code` varchar(255), `sector_name_fr` varchar(255), `sector_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134430')[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE TABLE `employe_ccq_qualifications` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `qualification_code` varchar(255), `qualification_name_fr` varchar(255), `qualification_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134515')[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (2.2ms)[0m   [0mCREATE TABLE `employe_ccq_schedules` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `schedule_code` varchar(255), `schedule_name_fr` varchar(255), `schedule_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134601')[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (1.8ms)[0m   [0mCREATE TABLE `projects` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `project_name` varchar(255), `project_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022637')[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (2.2ms)[0m   [0mCREATE TABLE `pay_codes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `paycode_name` varchar(255), `pay_code_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022746')[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TABLE `suppliers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `supplier_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025314')[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE TABLE `customers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `customer_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025333')[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (41.2ms)[0m   [0mCREATE TABLE `contacts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `contact_name` varchar(255), `title` varchar(255), `first_name` varchar(255), `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `created_by` int(11), `customer_id` int(11), `supplier_id` int(11), `note` varchar(255), `date_birth` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214030349')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `contacts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `contacts`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `customers`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `customers`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `customers`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mdescribe `employe_attachments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_qualifications`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_sectors`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `employes`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `employes`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `pay_codes`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `projects`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `projects`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `suppliers`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mdescribe `suppliers`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `suppliers`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:50:11) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (5.2ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 24ms (View: 8, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:50:15) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Rendered layouts/_menumain (6.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 92ms (View: 9, DB: 2) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (2.3ms)[0m   [0mDROP TABLE `contacts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214030349'[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (27.2ms)[0m   [0mDROP TABLE `customers`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025333'[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `suppliers`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025314'[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `pay_codes`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022746'[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `projects`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022637'[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (1.3ms)[0m   [0mDROP TABLE `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134601'[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134515'[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134430'[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213081241'[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (28.4ms)[0m   [0mDROP TABLE `employe_attachments`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100208053614'[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (1.8ms)[0m   [0mDROP TABLE `employes`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100204081940'[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (12.6ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100203081856'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (56.6ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `hashed_password` varchar(255) NOT NULL, `salt` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100203081856')[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (25.3ms)[0m   [0mCREATE TABLE `employes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `ssn` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `civil_status` varchar(255), `date_birth` date, `date_hire` date, `date_startemp` date, `date_endemp` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100204081940')[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (49.4ms)[0m   [0mCREATE TABLE `employe_attachments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `employes_id` int(11), `filename` varchar(255), `description` varchar(255), `filesize` int(11), `content_type` varchar(255), `data` blob, `added_user` varchar(255), `added_date` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100208053614')[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (25.9ms)[0m   [0mCREATE TABLE `employe_ccq_trades` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `trade_id` int(11), `apprentice_period` int(11), `trade_name_fr` varchar(255), `trade_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213081241')[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (23.3ms)[0m   [0mCREATE TABLE `employe_ccq_sectors` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `sector_code` varchar(255), `sector_name_fr` varchar(255), `sector_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134430')[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (22.8ms)[0m   [0mCREATE TABLE `employe_ccq_qualifications` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `qualification_code` varchar(255), `qualification_name_fr` varchar(255), `qualification_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134515')[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (22.7ms)[0m   [0mCREATE TABLE `employe_ccq_schedules` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `schedule_code` varchar(255), `schedule_name_fr` varchar(255), `schedule_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134601')[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (12.4ms)[0m   [0mCREATE TABLE `projects` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `project_name` varchar(255), `project_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022637')[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (26.5ms)[0m   [0mCREATE TABLE `pay_codes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `paycode_name` varchar(255), `pay_code_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022746')[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (20.5ms)[0m   [0mCREATE TABLE `suppliers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `supplier_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025314')[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (13.9ms)[0m   [0mCREATE TABLE `customers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `customer_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025333')[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (17.4ms)[0m   [0mCREATE TABLE `contacts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `first_name` varchar(255), `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `created_by` int(11), `customer_id` int(11), `supplier_id` int(11), `note` varchar(255), `date_birth` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214030349')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `contacts`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `contacts`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `customers`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `customers`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `customers`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `employe_attachments`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_qualifications`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_sectors`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `employes`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employes`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `pay_codes`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `projects`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `projects`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `suppliers`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `suppliers`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `suppliers`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (11.9ms)[0m   [0mDROP TABLE `contacts`[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214030349'[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (20.9ms)[0m   [0mDROP TABLE `customers`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025333'[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `suppliers`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025314'[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `pay_codes`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022746'[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (1.2ms)[0m   [0mDROP TABLE `projects`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022637'[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134601'[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (1.3ms)[0m   [0mDROP TABLE `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134515'[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134430'[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (1.2ms)[0m   [0mDROP TABLE `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213081241'[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `employe_attachments`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100208053614'[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (1.4ms)[0m   [0mDROP TABLE `employes`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100204081940'[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100203081856'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (4.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `hashed_password` varchar(255) NOT NULL, `salt` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100203081856')[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (25.3ms)[0m   [0mCREATE TABLE `employes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `ssn` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `civil_status` varchar(255), `date_birth` date, `date_hire` date, `date_startemp` date, `date_endemp` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100204081940')[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (24.5ms)[0m   [0mCREATE TABLE `employe_attachments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `employes_id` int(11), `filename` varchar(255), `description` varchar(255), `filesize` int(11), `content_type` varchar(255), `data` blob, `added_user` varchar(255), `added_date` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100208053614')[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (2.4ms)[0m   [0mCREATE TABLE `employe_ccq_trades` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `trade_id` int(11), `apprentice_period` int(11), `trade_name_fr` varchar(255), `trade_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213081241')[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE TABLE `employe_ccq_sectors` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `sector_code` varchar(255), `sector_name_fr` varchar(255), `sector_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134430')[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (16.4ms)[0m   [0mCREATE TABLE `employe_ccq_qualifications` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `qualification_code` varchar(255), `qualification_name_fr` varchar(255), `qualification_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134515')[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (15.0ms)[0m   [0mCREATE TABLE `employe_ccq_schedules` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `schedule_code` varchar(255), `schedule_name_fr` varchar(255), `schedule_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134601')[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (14.3ms)[0m   [0mCREATE TABLE `projects` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `project_name` varchar(255), `project_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022637')[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (10.7ms)[0m   [0mCREATE TABLE `pay_codes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `paycode_name` varchar(255), `pay_code_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022746')[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (22.5ms)[0m   [0mCREATE TABLE `suppliers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `supplier_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025314')[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (5.7ms)[0m   [0mCREATE TABLE `customers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `customer_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025333')[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (11.7ms)[0m   [0mCREATE TABLE `contacts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `first_name` varchar(255), `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `created_by` int(11), `customer_id` int(11), `supplier_id` int(11), `note` varchar(255), `date_birth` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214030349')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `contacts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `contacts`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `customers`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `customers`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `customers`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `employe_attachments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_qualifications`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_sectors`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `employes`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employes`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `pay_codes`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `projects`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `projects`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `suppliers`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `suppliers`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `suppliers`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:58:27) [GET]
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;35;1mContact Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+
+ActionView::TemplateError (undefined method `contact_name' for #<Contact:0x7f949b4466c8>) on line #10 of app/views/contacts/index.html.erb:
+7: 
+8: <% @contacts.each do |contact| %>
+9:   <tr>
+10:     <td><%=h contact.contact_name %></td>
+11:     <td><%= link_to 'Show', contact %></td>
+12:     <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
+13:     <td><%= link_to 'Destroy', contact, :confirm => 'Are you sure?', :method => :delete %></td>
+
+    app/views/contacts/index.html.erb:10
+    app/views/contacts/index.html.erb:8:in `each'
+    app/views/contacts/index.html.erb:8
+    app/controllers/contacts_controller.rb:7:in `index'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:58:57) [GET]
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;36;1mContact Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 42ms (View: 25, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 22:59:18) [GET]
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (1.3ms)[0m   [0mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (1.0ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (9.6ms)
+Rendered employes/_employelist (14.3ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 56ms (View: 33, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#show (for 192.168.90.112 at 2010-02-13 22:59:22) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (0.3ms)[0m   [0mSELECT * FROM `employes` WHERE (`employes`.`id` = 6) [0m
+  [4;36;1mEmployeAttachment Load (0.2ms)[0m   [0;1mSELECT * FROM `employe_attachments` WHERE (employes_id = 6) LIMIT 0, 5[0m
+Rendering template within layouts/employes
+Rendering employes/show
+Rendered employes/_employemenushow (0.9ms)
+Rendered employes/_employeactionshow (1.8ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 46ms (View: 20, DB: 3) | 200 OK [http://192.168.90.3/employes/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 22:59:25) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;35;1mContact Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.1ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 32ms (View: 17, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:01:33) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;36;1mContact Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.2ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 38ms (View: 22, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:02:29) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;35;1mContact Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (6.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 44ms (View: 26, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 23:05:48) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.9ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (9.8ms)
+Rendered employes/_employelist (83.6ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 125ms (View: 102, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:05:51) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.0ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 51ms (View: 29, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:05:55) [GET]
+  Parameters: {"page"=>"2"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.9ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 51ms (View: 29, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:05:56) [GET]
+  Parameters: {"page"=>"3"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 48ms (View: 27, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:05:57) [GET]
+  Parameters: {"page"=>"4"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.6ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.0ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 49ms (View: 29, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:05:58) [GET]
+  Parameters: {"page"=>"5"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.8ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 52ms (View: 29, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:05:59) [GET]
+  Parameters: {"page"=>"6"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.1ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 51ms (View: 30, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=6]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:01) [GET]
+  Parameters: {"page"=>"7"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (84.5ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.3ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 127ms (View: 106, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:12) [GET]
+  Parameters: {"page"=>"8"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.4ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 56ms (View: 28, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:12) [GET]
+  Parameters: {"page"=>"8"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (8.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 46ms (View: 26, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:12) [GET]
+  Parameters: {"page"=>"8"}
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 55ms (View: 31, DB: 4) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:12) [GET]
+  Parameters: {"page"=>"8"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.3ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 52ms (View: 30, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:12) [GET]
+  Parameters: {"page"=>"8"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.7ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 54ms (View: 31, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:14) [GET]
+  Parameters: {"page"=>"9"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.0ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.3ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 50ms (View: 30, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=9]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:15) [GET]
+  Parameters: {"page"=>"10"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.7ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (11.4ms)
+Rendered employe_ccq_trades/_trade_ccq_list (10.0ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 123ms (View: 102, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=10]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:16) [GET]
+  Parameters: {"page"=>"11"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.4ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 52ms (View: 30, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=11]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:18) [GET]
+  Parameters: {"page"=>"12"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.2ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.3ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 51ms (View: 29, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=12]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:20) [GET]
+  Parameters: {"page"=>"13"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.5ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 54ms (View: 31, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=13]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:22) [GET]
+  Parameters: {"page"=>"14"}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.3ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 50ms (View: 29, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=14]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:23) [GET]
+  Parameters: {"page"=>"15"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.7ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.3ms)
+Rendered employe_ccq_trades/_trade_ccq_list (6.6ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 51ms (View: 27, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?page=15]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:06:47) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"6", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.4ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 56ms (View: 34, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=6&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:07:01) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"6xx", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.6ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (12.0ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.4ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 126ms (View: 35, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=6xx&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:07:02) [GET]
+  Parameters: {"search"=>{"trade_id_like"=>"6", "order"=>"", "trade_name_fr_like"=>""}, "commit"=>"Appliquer les filtres"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.4ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.9ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 54ms (View: 32, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?search%5Border%5D=&search%5Btrade_id_like%5D=6&search%5Btrade_name_fr_like%5D=&commit=Appliquer+les+filtres]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:07:13) [GET]
+  Parameters: {"commit"=>"Appliquer les filtres", "search"=>{"trade_id_like"=>"6", "order"=>"", "trade_name_fr_like"=>""}, "page"=>"2"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.6ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.5ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.8ms)
+Rendered employe_ccq_trades/_trade_ccq_list (9.2ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.8ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 130ms (View: 109, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?commit=Appliquer+les+filtres&page=2&search%5Border%5D=&search%5Btrade_id_like%5D=6&search%5Btrade_name_fr_like%5D=]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:07:23) [GET]
+  Parameters: {"commit"=>"Appliquer les filtres", "search"=>{"trade_id_like"=>"6", "order"=>"", "trade_name_fr_like"=>""}, "page"=>"3"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (10.7ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.5ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 56ms (View: 33, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?commit=Appliquer+les+filtres&page=3&search%5Border%5D=&search%5Btrade_id_like%5D=6&search%5Btrade_name_fr_like%5D=]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:07:25) [GET]
+  Parameters: {"commit"=>"Appliquer les filtres", "search"=>{"trade_id_like"=>"6", "order"=>"", "trade_name_fr_like"=>""}, "page"=>"4"}
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.5ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employe_ccq_trades` WHERE (employe_ccq_trades.trade_id LIKE '%6%') [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.3ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.1ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 50ms (View: 31, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades?commit=Appliquer+les+filtres&page=4&search%5Border%5D=&search%5Btrade_id_like%5D=6&search%5Btrade_name_fr_like%5D=]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#show (for 192.168.90.112 at 2010-02-13 23:07:27) [GET]
+  Parameters: {"id"=>"661874527"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmployeCcqTrade Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;36;1mEmployeCcqTrade Load (0.2ms)[0m   [0;1mSELECT * FROM `employe_ccq_trades` WHERE (`employe_ccq_trades`.`id` = 661874527) [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/show
+Rendered layouts/_menumain (5.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 30ms (View: 12, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades/661874527]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployeCcqTradesController#index (for 192.168.90.112 at 2010-02-13 23:07:30) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmployeCcqTrade Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mEmployeCcqTrade Load (0.5ms)[0m   [0mSELECT * FROM `employe_ccq_trades` [0m
+Rendering template within layouts/employe_ccq_trades
+Rendering employe_ccq_trades/index
+Rendered employe_ccq_trades/_trade_ccq_menu_index (0.4ms)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employe_ccq_trades` [0m
+Rendered employe_ccq_trades/_trade_ccq_search (9.1ms)
+Rendered employe_ccq_trades/_trade_ccq_list (8.2ms)
+Rendered employe_ccq_trades/_trade_ccq_action_index (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 45ms (View: 26, DB: 3) | 200 OK [http://192.168.90.3/employe_ccq_trades]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 23:07:34) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mEmploye Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `employes`[0m
+  [4;35;1mEmploye Load (1.1ms)[0m   [0mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (1.0ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (11.4ms)
+Rendered employes/_employelist (16.5ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.7ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 131ms (View: 37, DB: 4) | 200 OK [http://192.168.90.3/employes]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:07:39) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;35;1mContact Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 43ms (View: 26, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:08:49) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;36;1mContact Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.1ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 43ms (View: 26, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:11:53) [GET]
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;35;1mContact Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (6.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 44ms (View: 27, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:12:58) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;36;1mContact Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 54ms (View: 37, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:15:07) [GET]
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;35;1mContact Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.2ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 64ms (View: 47, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:16:33) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;36;1mContact Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 138ms (View: 122, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:17:37) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;35;1mContact Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 69ms (View: 53, DB: 3) | 200 OK [http://192.168.90.3/contacts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (1.9ms)[0m   [0mDROP TABLE `contacts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214030349'[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `customers`[0m
+  [4;36;1mSQL (20.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025333'[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `suppliers`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214025314'[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `pay_codes`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022746'[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `projects`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100214022637'[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (1.2ms)[0m   [0mDROP TABLE `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134601'[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134515'[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213134430'[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (1.3ms)[0m   [0mDROP TABLE `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100213081241'[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `employe_attachments`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100208053614'[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (1.4ms)[0m   [0mDROP TABLE `employes`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100204081940'[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100203081856'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100203081856)
+  [4;35;1mSQL (4.7ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `hashed_password` varchar(255) NOT NULL, `salt` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100203081856')[0m
+Migrating to CreateEmployes (20100204081940)
+  [4;35;1mSQL (6.0ms)[0m   [0mCREATE TABLE `employes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `first_name` varchar(255) NOT NULL, `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `ssn` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `civil_status` varchar(255), `date_birth` date, `date_hire` date, `date_startemp` date, `date_endemp` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100204081940')[0m
+Migrating to CreateEmployeAttachments (20100208053614)
+  [4;35;1mSQL (2.5ms)[0m   [0mCREATE TABLE `employe_attachments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `employes_id` int(11), `filename` varchar(255), `description` varchar(255), `filesize` int(11), `content_type` varchar(255), `data` blob, `added_user` varchar(255), `added_date` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100208053614')[0m
+Migrating to CreateEmployeCcqTrades (20100213081241)
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TABLE `employe_ccq_trades` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `trade_id` int(11), `apprentice_period` int(11), `trade_name_fr` varchar(255), `trade_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213081241')[0m
+Migrating to CreateEmployeCcqSectors (20100213134430)
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TABLE `employe_ccq_sectors` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `sector_code` varchar(255), `sector_name_fr` varchar(255), `sector_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134430')[0m
+Migrating to CreateEmployeCcqQualifications (20100213134515)
+  [4;35;1mSQL (2.7ms)[0m   [0mCREATE TABLE `employe_ccq_qualifications` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `qualification_code` varchar(255), `qualification_name_fr` varchar(255), `qualification_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134515')[0m
+Migrating to CreateEmployeCcqSchedules (20100213134601)
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TABLE `employe_ccq_schedules` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `schedule_code` varchar(255), `schedule_name_fr` varchar(255), `schedule_name_en` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100213134601')[0m
+Migrating to CreateProjects (20100214022637)
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TABLE `projects` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `project_name` varchar(255), `project_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022637')[0m
+Migrating to CreatePayCodes (20100214022746)
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TABLE `pay_codes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `paycode_name` varchar(255), `pay_code_description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214022746')[0m
+Migrating to CreateSuppliers (20100214025314)
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TABLE `suppliers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `supplier_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025314')[0m
+Migrating to CreateCustomers (20100214025333)
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TABLE `customers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `customer_name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214025333')[0m
+Migrating to CreateContacts (20100214030349)
+  [4;35;1mSQL (2.7ms)[0m   [0mCREATE TABLE `contacts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `first_name` varchar(255), `last_name` varchar(255) NOT NULL, `address1` varchar(255), `address2` varchar(255), `city` varchar(255), `province` varchar(255), `country` varchar(255), `postal_code` varchar(255), `phone1` varchar(255), `phone2` varchar(255), `phone3` varchar(255), `email` varchar(255), `spoken_lang` varchar(255), `created_by` int(11), `customer_id` int(11), `supplier_id` int(11), `note` varchar(255), `date_birth` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100214030349')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `contacts`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `contacts`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `customers`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `customers`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `customers`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `employe_attachments`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `employe_attachments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_attachments`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_qualifications`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_qualifications`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `employe_ccq_schedules`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_schedules`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `employe_ccq_sectors`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employe_ccq_sectors`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `employe_ccq_trades`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `employe_ccq_trades`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `employes`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `employes`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `pay_codes`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `pay_codes`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `projects`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `projects`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `suppliers`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `suppliers`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `suppliers`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmployesController#index (for 192.168.90.112 at 2010-02-13 23:18:43) [GET]
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mEmploye Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `employes`[0m
+  [4;36;1mEmploye Load (1.3ms)[0m   [0;1mSELECT * FROM `employes` [0m
+Rendering template within layouts/employes
+Rendering employes/index
+Rendered employes/_employemenuindex (0.9ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `employes` [0m
+Rendered employes/_employesearch (77.1ms)
+Rendered employes/_employelist (17.3ms)
+Rendered employes/_employeactionindex (0.2ms)
+Rendered layouts/_menumain (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 129ms (View: 103, DB: 5) | 200 OK [http://192.168.90.3/employes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 192.168.90.112 at 2010-02-13 23:18:49) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+  [4;36;1mContact Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+Rendered layouts/_menumain (5.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 75ms (View: 58, DB: 3) | 200 OK [http://192.168.90.3/contacts]

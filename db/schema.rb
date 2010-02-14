@@ -12,7 +12,25 @@
 ActiveRecord::Schema.define(:version => 20100214030349) do
 
   create_table "contacts", :force => true do |t|
-    t.string   "contact_name"
+    t.string   "title"
+    t.string   "first_name"
+    t.string   "last_name",   :null => false
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "province"
+    t.string   "country"
+    t.string   "postal_code"
+    t.string   "phone1"
+    t.string   "phone2"
+    t.string   "phone3"
+    t.string   "email"
+    t.string   "spoken_lang"
+    t.integer  "created_by"
+    t.integer  "customer_id"
+    t.integer  "supplier_id"
+    t.string   "note"
+    t.date     "date_birth"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
