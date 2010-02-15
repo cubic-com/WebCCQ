@@ -1,0 +1,13 @@
+<p>
+  <b>Qualification name fr:</b>
+  <%=h @employe_ccq_qualification.qualification_name_fr %>
+</p>
+
+<p>
+  <b>Qualifaction name en:</b>
+  <%=h @employe_ccq_qualification.qualifaction_name_en %>
+</p>
+
+
+<%= link_to 'Edit', edit_employe_ccq_qualification_path(@employe_ccq_qualification) %> |
+<%= link_to 'Back', employe_ccq_qualifications_path %>

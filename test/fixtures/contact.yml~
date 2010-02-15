@@ -1,0 +1,16 @@
+1:
+  contact_name
+  title
+  first_name
+  last_name
+  address1
+  address2
+  city
+  province
+  country
+  postal_code
+  phone1
+  phone2
+  phone3
+  email
+  spoken_lang

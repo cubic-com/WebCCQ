@@ -1,0 +1,16 @@
+1:
+  name: "Caisse Populaire Jean XXIII"
+  description: "Renovation de caisse populaire"
+  status: "Soumission"
+2:
+  name: "Irving Cap De la Madelaine"
+  description: "Renovation Irving"
+  status: "En Route"
+3:
+  name: "CLSC Des Forges"
+  description: "Renovation reception"
+  status: "Attente"
+4:
+  name: "Mc Donald"
+  description: "Renovation toilette"
+  status: "En Route"

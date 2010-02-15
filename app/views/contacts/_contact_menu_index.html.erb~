@@ -1,0 +1,14 @@
+<html>
+<%if session[:user_id]%>
+  <div id="menuleft">
+    <h3><%= I18n.translate('contact.menucontact')%></h3>
+     <ul>
+      <li>
+         <%#= link_to I18n.translate('contact.new_contact'), new_contact_path %>
+      </li>
+      <li>
+         <%#= link_to 'Back', home_path %>
+      </li>
+    </ul>
+  </div>
+<% end %>

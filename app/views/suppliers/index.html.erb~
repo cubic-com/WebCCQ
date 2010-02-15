@@ -1,0 +1,24 @@
+<html>
+
+<%= render(:partial => "supplier_menu_index" ) %>
+
+<div id="menucenter">
+  <%= render(:partial => "supplier_search" ) %>
+
+  <div id="ajaxWrapper">
+   <%= render(:partial => "supplier_list" ) %>
+  </div>
+  <br />
+  <%#= will_paginate @suppliers, :previous_label => I18n.translate('will_paginate.prev_page'), :next_label => I18n.translate('will_paginate.next_page')%>
+
+
+  
+</div>
+<%= render(:partial => "supplier_action_index" ) %>
+
+
+
+
+
+
+

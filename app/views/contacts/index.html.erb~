@@ -1,0 +1,19 @@
+<html>
+
+<%= render(:partial => "contact_menu_index" ) %>
+
+<div id="menucenter">
+  <%= render(:partial => "contact_search" ) %>
+
+  <div id="ajaxWrapper">
+   <%= render(:partial => "contact_list" ) %>
+  </div>
+  <br />
+  <%= will_paginate @contacts, :previous_label => I18n.translate('will_paginate.prev_page'), :next_label => I18n.translate('will_paginate.next_page')%>
+
+
+  
+</div>
+<%= render(:partial => "contact_action_index" ) %>
+
+

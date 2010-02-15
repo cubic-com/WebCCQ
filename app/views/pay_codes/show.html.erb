@@ -1,0 +1,13 @@
+<p>
+  <b>Paycode name:</b>
+  <%=h @pay_code.paycode_name %>
+</p>
+
+<p>
+  <b>Pay code dexcription:</b>
+  <%=h @pay_code.pay_code_dexcription %>
+</p>
+
+
+<%= link_to 'Edit', edit_pay_code_path(@pay_code) %> |
+<%= link_to 'Back', pay_codes_path %>

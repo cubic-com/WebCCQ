@@ -1,0 +1,11 @@
+<html>
+<%if session[:user_id]%>
+  <div id="menuright">
+    <h3>Action</h3>
+     <ul>
+      <li>
+        <%= link_to 'New project', new_project_path %>
+      </li>
+      </ul>
+  </div>
+<% end %>

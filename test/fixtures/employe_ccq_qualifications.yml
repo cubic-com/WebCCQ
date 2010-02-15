@@ -1,0 +1,30 @@
+6:
+  qualification_code: 6
+  qualification_name_fr: "Compagnon"
+  qualification_name_en: "Compagnon"
+1:
+  qualification_code: 1
+  qualification_name_fr: "Apprenti 1"
+  qualification_name_en: "Apprenti 1"
+2:
+  qualification_code: 2
+  qualification_name_fr: "Apprenti 2"
+  qualification_name_en: "Apprenti 2"
+3:
+  qualification_code: 3
+  qualification_name_fr: "Apprenti 3"
+  qualification_name_en: "Apprenti 3"
+4:
+  qualification_code: 4
+  qualification_name_fr: "Apprenti 4"
+  qualification_name_en: "Apprenti 4"
+5:
+  qualification_code: 5
+  qualification_name_fr: "Apprenti 5"
+  qualification_name_en: "Apprenti 5"
+9:
+  qualification_code: 9
+  qualification_name_fr: "Periode d'essaie"
+  qualification_name_en: "Periode d'essaie"
+
+

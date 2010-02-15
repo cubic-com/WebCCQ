@@ -1,0 +1,13 @@
+<html>
+<%if session[:user_id]%>
+  <div id="menuleft">
+    <h3>Menu</h3>
+     <ul>
+      <li>
+        <%= link_to 'Métier CCQ', employe_ccq_trades_path %>
+      </li>
+       
+      
+    </ul>
+  </div>
+<% end %>

@@ -1,0 +1,30 @@
+<html>
+<div id="table-default">
+  <table summary="CCQ Trade List">
+    <caption><%= I18n.translate('project.caption')%></caption>
+    <tr>
+      <th scope="col">
+        <%= I18n.translate('project.name')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('project.description')%> 
+      </th> <th scope="col">
+        <%= I18n.translate('project.status')%> 
+      </th>
+    </tr>
+    <% @projects.each do |project| %>
+      <tr>
+         <td>
+            <%= link_to project.name, project %>
+         </td>
+         <td>
+            <%= truncate project.description, :length => 45 %>
+         </td>
+         <td>
+            <%= project.status %>
+         </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+

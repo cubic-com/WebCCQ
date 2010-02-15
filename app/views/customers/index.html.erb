@@ -1,0 +1,16 @@
+<html>
+
+<%= render(:partial => "customer_menu_index" ) %>
+
+<div id="menucenter">
+  <%= render(:partial => "customer_search" ) %>
+
+  <div id="ajaxWrapper">
+   <%= render(:partial => "customer_list" ) %>
+  </div>
+  <br />
+  <%= will_paginate @customers, :previous_label => I18n.translate('will_paginate.prev_page'), :next_label => I18n.translate('will_paginate.next_page')%>
+ 
+</div>
+<%= render(:partial => "customer_action_index" ) %>
+

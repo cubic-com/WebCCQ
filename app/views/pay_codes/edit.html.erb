@@ -1,0 +1,20 @@
+<h1>Editing pay_code</h1>
+
+<% form_for(@pay_code) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :paycode_name %><br />
+    <%= f.text_field :paycode_name %>
+  </p>
+  <p>
+    <%= f.label :pay_code_dexcription %><br />
+    <%= f.text_field :pay_code_dexcription %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @pay_code %> |
+<%= link_to 'Back', pay_codes_path %>

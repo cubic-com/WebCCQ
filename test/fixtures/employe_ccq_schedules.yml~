@@ -1,0 +1,27 @@
+B3:
+  schedule_code: "B3"
+  schedule_name_fr: "Règle générale : travail de jour"
+  schedule_name_en: "Règle générale : travail de jour"
+B4:
+  schedule_code: "B4"
+  schedule_name_fr: "Règle générale : 7h à 19h sauf métier 380: 5h à 17h"
+  schedule_name_en: "Règle générale : 7h à 19h sauf métier 380: 5h à 17h"
+B5:
+  schedule_code: "B5"
+  schedule_name_fr: "Règle générale : 19h à 7h sauf métier 380: 17h à 5h"
+  schedule_name_en: "Règle générale : 19h à 7h sauf métier 380: 17h à 5h"
+B6:
+  schedule_code: "B6"
+  schedule_name_fr: "Chantiers isolés / Baie-James : travail de jour"
+  schedule_name_en: "Chantiers isolés / Baie-James : travail de jour"
+B7:
+  schedule_code: "B7"
+  schedule_name_fr: "Chantiers isolés / Baie-James : 7h à 19h sauf métier 380: 5h à 17h"
+  schedule_name_en: "Chantiers isolés / Baie-James : 7h à 19h sauf métier 380: 5h à 17h"
+
+
+
+<option value="B7">B7  Chantiers isolés / Baie-James : 7h à 19h sauf métier 380: 5h à 17h</option>
+<option value="B8">B8  Chantiers isolés / Baie-James : 19h à 7h sauf métier 380: 17h à 5h      </option>
+
+

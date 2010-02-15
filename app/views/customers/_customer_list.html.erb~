@@ -1,0 +1,43 @@
+<html>
+<div id="table-default">
+  <table summary="supplier List">
+    <caption><%= I18n.translate('supplier.caption')%></caption>
+    <tr>
+      <th scope="col">
+        <%= I18n.translate('supplier.last_name')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('supplier.first_name')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('supplier.address1')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('supplier.city')%> 
+      </th>
+      <th scope="col">
+        <%= I18n.translate('supplier.phone1')%> 
+      </th>
+    </tr>
+    <% @suppliers.each do |supplier| %>
+      <tr>
+         <td>
+            <%=link_to supplier.last_name, supplier %>
+          </td>
+          <td>
+            <%=link_to supplier.first_name, supplier %>
+          </td>
+          <td>
+            <%= truncate(supplier.address1, :length => 20) %>
+          </td>
+          <td>
+            <%= truncate(supplier.city, :length => 20) %>
+          </td>
+          <td>
+            <%= truncate(supplier.phone1, :length => 20) %>
+          </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+

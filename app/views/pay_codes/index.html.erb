@@ -1,0 +1,22 @@
+<h1>Listing pay_codes</h1>
+
+<table>
+  <tr>
+    <th>Paycode name</th>
+    <th>Pay code dexcription</th>
+  </tr>
+
+<% @pay_codes.each do |pay_code| %>
+  <tr>
+    <td><%=h pay_code.paycode_name %></td>
+    <td><%=h pay_code.pay_code_dexcription %></td>
+    <td><%= link_to 'Show', pay_code %></td>
+    <td><%= link_to 'Edit', edit_pay_code_path(pay_code) %></td>
+    <td><%= link_to 'Destroy', pay_code, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New pay_code', new_pay_code_path %>

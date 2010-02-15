@@ -1,0 +1,16 @@
+ <div id="tab5data" style="display:none">
+   <script type="text/javascript">
+      $("tab5data").hide( ); 
+   </script>  
+ 
+  <p>
+    <b>First name:</b>
+    <%=h @employe.first_name %>
+  </p>
+
+  <p>
+    <b>Last name:</b>
+    <%=h @employe.last_name %>
+  </p>
+
+  </div>
