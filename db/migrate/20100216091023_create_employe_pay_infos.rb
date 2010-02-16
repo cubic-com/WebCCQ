@@ -5,6 +5,7 @@ class CreateEmployePayInfos < ActiveRecord::Migration
       t.decimal :salary, :precision => 6, :scale => 2, :null => false, :default => 0
       t.decimal :csst_rate,:precision => 4, :scale => 2, :null => false, :default => 0
       t.boolean :ei_eligible , :default => true   # Employment Insurance
+      t.boolean :email_pay_stub , :default => false   # Pay stub by EMail
       t.string :bank_description
       t.string :bank_account        # Banque account number
       t.string :bank_identifier     # Banque id

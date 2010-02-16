@@ -1,7 +1,8 @@
 <html>
 <div id="table-default">
   <table summary="Employes List">
-    <caption><%= I18n.translate('employes_table.caption')%></caption>
+    <caption><%= I18n.translate('employes_table.caption')%> <%= link_to_function "Recherche","
+        $('search-default').toggle();" %></caption>
     <tr>
       <th scope="col">
         <%= I18n.translate('employes_table.last_name')%> 

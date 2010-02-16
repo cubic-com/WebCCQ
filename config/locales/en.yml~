@@ -30,6 +30,8 @@ en:
     csst_rate: "CSST Rate"
     ei_eligible: "Eligible to Employment Insurance "
     bank_description: "Bank name"
+    bank_account: "Bank Account"
+    bank_identifier: "Bank Identifier"
   employe_attachment:
     caption: "Attached file list"
     file_name: "File Name"

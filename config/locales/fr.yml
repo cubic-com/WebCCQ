@@ -32,6 +32,8 @@ fr:
     ei_eligible: "Admissible a l'assurance-emploi"
     bank_description: "Institution bancaire"
     bank_account: "Folio"
+    bank_identifier: "No Identifient"
+    email_pay_stub: "Envoi du relevé de paie par courriel"
   employe_attachment:
     caption: "Liste de fichier joint(s)"
     file_name: "Nom du fichier"

@@ -1,5 +1,8 @@
 <html>
 <div id="search-default">
+<script type="text/javascript">
+      $("search-default").hide( ); 
+   </script> 
   <table summary="Empoye Search">
   <caption><%= I18n.translate('filter.caption') + " " + @search.count.to_s + " " + I18n.translate('filter.record') %></caption>
      <tr>

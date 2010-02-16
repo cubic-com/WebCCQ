@@ -104,9 +104,10 @@ ActiveRecord::Schema.define(:version => 20100216091023) do
 
   create_table "employe_pay_infos", :force => true do |t|
     t.integer  "employes_id"
-    t.decimal  "salary",                       :precision => 6, :scale => 2, :default => 0.0,  :null => false
-    t.decimal  "csst_rate",                    :precision => 4, :scale => 2, :default => 0.0,  :null => false
+    t.decimal  "salary",                       :precision => 6, :scale => 2, :default => 0.0,   :null => false
+    t.decimal  "csst_rate",                    :precision => 4, :scale => 2, :default => 0.0,   :null => false
     t.boolean  "ei_eligible",                                                :default => true
+    t.boolean  "email_pay_stub",                                             :default => false
     t.string   "bank_description"
     t.string   "bank_account"
     t.string   "bank_identifier"

@@ -31,6 +31,8 @@ en:
     ei_eligible: "Eligible to Employment Insurance "
     bank_description: "Bank name"
     bank_account: "Bank Account"
+    bank_identifier: "Bank Identifier"
+    email_pay_stub: "Send pay stub by EMail"
   employe_attachment:
     caption: "Attached file list"
     file_name: "File Name"
