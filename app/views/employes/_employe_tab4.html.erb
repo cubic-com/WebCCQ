@@ -2,10 +2,13 @@
    <script type="text/javascript">
       $("tab4data").hide( ); 
    </script>  
- 
-  <p>
-    <b>Last name:</b>
-    <%=h @employe.last_name %>
+ <p>
+    <b><%= I18n.translate('employes_table.id')%></b>
+    <%=h @employe_pay_infos.id %>
   </p>
+   <p>
+    <b><%= I18n.translate('employes_table.name')%></b>
+    <%=h @employe.first_name %> <%=h @employe.last_name %>
+  </p>  
 
   </div>

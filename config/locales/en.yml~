@@ -16,13 +16,20 @@ en:
     supplier: "Supplier"
   employes_table:
     caption: "Liste d'employées"
+    id: "Employe No."
     last_name: "Last Name"
     first_name: "First Name"
+    name: "Name"  # First + Last
     address1: "Address"
     city: "City"
     province: "Province"
     phone1: "Tel."
     email: "Email"
+  employes_pay_info_table:
+    salary: "Salary"
+    csst_rate: "CSST Rate"
+    ei_eligible: "Eligible to Employment Insurance "
+    bank_description: "Bank name"
   employe_attachment:
     caption: "Attached file list"
     file_name: "File Name"
@@ -40,6 +47,7 @@ en:
     caption: "Project List"
     name: "Project Name"
     description: "Description"
+    status: "Status"
   contact:
     caption: "Contacts List"
     last_name: "Last Name"

@@ -131,7 +131,7 @@ color: #000;
             <%= truncate(attachment.description,:lenght => 35) %>
           </td>
           <td>
-            <%= attachment.filesize %>
+            <%= number_to_human_size(attachment.filesize) %>
           </td>
           <td>
             <%= truncate(attachment.content_type,:lenght => 25) %>

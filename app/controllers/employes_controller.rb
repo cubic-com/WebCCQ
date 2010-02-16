@@ -15,6 +15,7 @@ class EmployesController < ApplicationController
   # GET /employes/1.xml
   def show
     @employe = Employe.find(params[:id])
+    @employe_pay_infos = EmployePayInfo.find(params[:id])
     @employe_attachments = EmployeAttachment.paginate :page => params[:page], :per_page => 5, :conditions => ['employes_id = ?', @employe.id]
        
     respond_to do |format|

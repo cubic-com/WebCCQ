@@ -1,10 +1,10 @@
  <div id="tab1data" style="display:none">
    <script type="text/javascript">
-      $("tab1data").show( ); // will work
+      $("tab1data").show( ); 
    </script>  
   <p>
-    <b>ID:</b>
-    <%=h @employe.id %>
+    <b><%= I18n.translate('employes_table.id')%></b>
+    <%=h @employe_pay_infos.id %>
   </p>
   <p>
     <b>First name:</b>

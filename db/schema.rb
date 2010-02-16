@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100214030349) do
+ActiveRecord::Schema.define(:version => 20100216091023) do
 
   create_table "contacts", :force => true do |t|
     t.string   "title"
@@ -98,6 +98,26 @@ ActiveRecord::Schema.define(:version => 20100214030349) do
     t.integer  "apprentice_period"
     t.string   "trade_name_fr"
     t.string   "trade_name_en"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "employe_pay_infos", :force => true do |t|
+    t.integer  "employes_id"
+    t.decimal  "salary",                       :precision => 6, :scale => 2, :default => 0.0,  :null => false
+    t.decimal  "csst_rate",                    :precision => 4, :scale => 2, :default => 0.0,  :null => false
+    t.boolean  "ei_eligible",                                                :default => true
+    t.string   "bank_description"
+    t.string   "bank_account"
+    t.string   "bank_identifier"
+    t.integer  "account_salary"
+    t.string   "account_salary_description"
+    t.integer  "account_welfare"
+    t.string   "account_welfare_description"
+    t.integer  "account_vacation"
+    t.string   "account_vacation_description"
+    t.integer  "account_CCQ"
+    t.string   "account_CCQ_description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

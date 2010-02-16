@@ -1,0 +1,55 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+1:
+  id: 1
+  employes_id: 1
+  salary: 17.50
+  csst_rate: 2.3
+  ei_eligible: 1
+  bank_description: "Caisse Populaire De la Mauricie"
+  bank_account: "16131"
+  bank_identifier: "50012376541"
+  account_salary: "43100"
+  account_salary_description: "Charges masse salariale"
+  account_salary: "43200"
+  account_salary_description: "Charges Sociales"
+  account_salary: "43300"
+  account_salary_description: "Vacances"
+  account_salary: "43400"
+  account_salary_description: "Charges CCQ"
+  
+2:
+  id: 2
+  employes_id: 2
+  salary: 20.40
+  csst_rate: 2.3
+  ei_eligible: 1
+  bank_description: "Caisse Populaire Des Forges"
+  bank_account: "16131"
+  bank_identifier: "50012376541"
+  account_salary: "43100"
+  account_salary_description: "Charges masse salariale"
+  account_salary: "43200"
+  account_salary_description: "Charges Sociales"
+  account_salary: "43300"
+  account_salary_description: "Vacances"
+  account_salary: "43400"
+  account_salary_description: "Charges CCQ"
+3:
+  id 3
+  employes_id: 3
+  salary: 21.40
+  csst_rate: 3.0
+  ei_eligible: 0
+  bank_description: "Caisse Populaire De Grande Anse"
+  bank_account: "12131"
+  bank_identifier: "123012376541"
+  account_salary: "43100"
+  account_salary_description: "Charges masse salariale"
+  account_salary: "43200"
+  account_salary_description: "Charges Sociales"
+  account_salary: "43300"
+  account_salary_description: "Vacances"
+  account_salary: "43400"
+  account_salary_description: "Charges CCQ"
+

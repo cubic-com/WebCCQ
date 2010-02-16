@@ -3,17 +3,32 @@
       $("tab2data").hide( ); 
    </script>  
   <p>
-    <b>ID:</b>
-    <%=h @employe.id %>
+    <b><%= I18n.translate('employes_table.id')%></b>
+    <%=h @employe_pay_infos.id %>
+  </p>
+   <p>
+    <b><%= I18n.translate('employes_table.name')%></b>
+    <%=h @employe.first_name %> <%=h @employe.last_name %>
+  </p>  
+  <p>
+    <b><%= I18n.translate('employes_pay_info_table.salary')%></b>
+    <%=h number_to_currency(@employe_pay_infos.salary, :unit => '$') %>
+  </p>
+   <p>
+    <b><%= I18n.translate('employes_pay_info_table.csst_rate')%></b>
+    <%=h  number_with_precision(@employe_pay_infos.csst_rate,:precision =>2) + ' %' %>
   </p>
   <p>
-    <b>First name:</b>
-    <%=h @employe.first_name %>
+    <b><%= I18n.translate('employes_pay_info_table.ei_eligible')%></b>
+    <%=h @employe_pay_infos.id %>
   </p>
-
   <p>
-    <b>Last name:</b>
-    <%=h @employe.last_name %>
+    <b><%= I18n.translate('employes_pay_info_table.bank_description')%></b>
+    <%=h @employe_pay_infos.bank_description %>
+  </p>
+  <p>
+    <b><%= I18n.translate('employes_pay_info_table.bank_account')%></b>
+    <%=h @employe_pay_infos.bank_account %>
   </p>
 
   </div>

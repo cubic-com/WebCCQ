@@ -3,81 +3,32 @@
       $("tab2data").hide( ); 
    </script>  
   <p>
-    <b>ID:</b>
-    <%=h @employe.id %>
-  </p>
-  <p>
-    <b>First name:</b>
-    <%=h @employe.first_name %>
-  </p>
-
-  <p>
-    <b>Last name:</b>
-    <%=h @employe.last_name %>
-  </p>
-
-  <p>
-    <b>Address1:</b>
-    <%=h @employe.address1 %>
-  </p>
-
-  <p>
-    <b>Address2:</b>
-    <%=h @employe.address2 %>
-  </p>
-
-  <p>
-    <b>Province:</b>
-    <%=h @employe.province %>
-  </p>
-
-  <p>
-    <b>City:</b>
-    <%=h @employe.city %>
-  </p>
-
-  <p>
-    <b>Code postal:</b>
-    <%=h @employe.postal_code %>
-  </p>
-
-  <p>
-    <b>ssn:</b>
-    <%=h @employe.ssn %>
+    <b><%= I18n.translate('employes_table.id')%></b>
+    <%=h @employe_pay_infos.id %>
   </p>
    <p>
-    <b>Email:</b>
-    <%=h @employe.email %>
+    <b><%= I18n.translate('employes_table.name')%></b>
+    <%=h @employe.first_name %> <%=h @employe.last_name %>
+  </p>  
+  <p>
+    <b><%= I18n.translate('employes_pay_info_table.salary')%></b>
+    <%=h number_to_currency(@employe_pay_infos.salary, :unit => '$') %>
+  </p>
+   <p>
+    <b><%= I18n.translate('employes_pay_info_table.csst_rate')%></b>
+    <%=h  number_with_precision(@employe_pay_infos.csst_rate,:precision =>2) + ' %' %>
+  </p>
+  <p>
+    <b><%= I18n.translate('employes_pay_info_table.ei_eligible')%></b>
+    <%=h @employe_pay_infos.id %>
+  </p>
+  <p>
+    <b><%= I18n.translate('employes_pay_info_table.bank_description')%></b>
+    <%=h @employe_pay_infos.bank_description %>
+  </p>
+  <p>
+    <b><%= I18n.translate('employes_pay_info_table.bank_account')%></b>
+    <%=h @employe_pay_infos.bank_description %>
   </p>
 
-  <p>
-    <b>Date birth:</b>
-    <%=h @employe.date_birth %>
-  </p>
-
-  <p>
-    <b>Date hire:</b>
-    <%=h @employe.date_hire %>
-  </p>
-
-  <p>
-    <b>Date startemp:</b>
-    <%=h @employe.date_startemp %>
-  </p>
-
-  <p>
-    <b>Date endemp:</b>
-    <%=h @employe.date_endemp %>
-  </p>
-
-  <p>
-    <b>Country:</b>
-    <%=h @employe.country %>
-  </p>
-
-  <p>
-    <b>Civil status:</b>
-    <%=h @employe.civil_status %>
-  </p>
-  <br>
   </div>

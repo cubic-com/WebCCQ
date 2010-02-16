@@ -14,5 +14,6 @@ task :resetdatabase do
   sh "rake db:fixtures:load FIXTURES=suppliers"
   sh "rake db:fixtures:load FIXTURES=customers"
   sh "rake db:fixtures:load FIXTURES=projects"
+  sh "rake db:fixtures:load FIXTURES=employe_pay_infos"
 end
 

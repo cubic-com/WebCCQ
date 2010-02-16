@@ -9,7 +9,7 @@ fr:
     submit: "Ouvrir"
   menu: 
     home: "Accueil"
-    employe: "Salaire"
+    employe: "Salaires"
     project: "Projet"
     customer: "Client"
     contact: "Contact"
@@ -17,13 +17,20 @@ fr:
   # Translation for Employes Table 
   employes_table:
     caption: "Liste d'employées"
+    id: "No. Employé"
     last_name: "Nom"
     first_name: "Prénom"
+    name: "Nom"  # Prenom + nom
     address1: "Adresse"
-    city: "Ville"
+    city: "Ville"  
     province: "Province"
     phone1: "Tél." 
     email: "Email"
+  employes_pay_info_table:
+    salary: "Salaire"
+    csst_rate: "Taux de CSST"
+    ei_eligible: "Admissible a l'assurance-emploi"
+    bank_description: "Institution bancaire"
   employe_attachment:
     caption: "Liste de fichier joint(s)"
     file_name: "Nom du fichier"

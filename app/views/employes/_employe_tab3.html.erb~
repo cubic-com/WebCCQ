@@ -3,17 +3,8 @@
       $("tab3data").hide( ); 
    </script>  
   <p>
-    <b>ID:</b>
-    <%=h @employe.id %>
-  </p>
-  <p>
-    <b>First name:</b>
-    <%=h @employe.first_name %>
-  </p>
-
-  <p>
-    <b>Last name:</b>
-    <%=h @employe.last_name %>
+    <b><%= I18n.translate('employes_table.id')%></b>
+    <%=h @employe_pay_infos.id %>
   </p>
 
   </div>
