@@ -13,6 +13,7 @@
   <p>
     <b><%= I18n.translate('employes_pay_info_table.salary')%></b>
     <%=h number_to_currency(@employe_pay_infos.salary, :unit => '$') %>
+    <%#= in_place_editor_field :employe_pay_infos, :salary, {}, :row => 1 %>
   </p>
    <p>
     <b><%= I18n.translate('employes_pay_info_table.csst_rate')%></b>
